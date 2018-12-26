@@ -9,7 +9,9 @@
       "Zanry":"Povídka, román, divadelní hra, cestopisy, dětské knihy, překlady",
       "Zivotopis":"Měl dvě nohy a HODNĚ OČÍ LOL",
       "Dila": [
-        { "NazevDila":"R.U.R.", "RokVydani":"1939" ,"PopisDila":"Divadelní hra o robotech a o tom jak je naučit jíst paštiku z hrníčku" }  
+        { "NazevDila":"R.U.R.", "RokVydani":"1939" ,"PopisDila":"Divadelní hra o robotech a o tom jak je naučit jíst paštiku z hrníčku" },
+        { "NazevDila":"R.U.R.2", "RokVydani":"1939" ,"PopisDila":"Divadelní hra o robotech a o tom jak je naučit jíst paštiku z hrníčku" } ,
+        { "NazevDila":"R.U.R.3", "RokVydani":"1939" ,"PopisDila":"Divadelní hra o robotech a o tom jak je naučit jíst paštiku z hrníčku" } 
       ]
     }
   ] 
