@@ -7,11 +7,11 @@
       "Styl":"Pragmatismus, expresionismus",
       "Povolani":"Novinář, spisovatel, dramatik, filosof, fotograf, překladatel",
       "Zanry":"Povídka, román, divadelní hra, cestopisy, dětské knihy, překlady",
-      "Zivotopis":"Měl dvě nohy a HODNĚ OČÍ LOL",
+      "Zivotopis":"Významný český autor 20. století, obrovský rozsah tvorby, člen \"pátečníků\" - kulturně politické smetánky",
       "Dila": [
-        { "NazevDila":"R.U.R.", "RokVydani":"1939" ,"PopisDila":"Divadelní hra o robotech a o tom jak je naučit jíst paštiku z hrníčku" },
-        { "NazevDila":"R.U.R.2", "RokVydani":"1939" ,"PopisDila":"Divadelní hra o robotech a o tom jak je naučit jíst paštiku z hrníčku" } ,
-        { "NazevDila":"R.U.R.3", "RokVydani":"1939" ,"PopisDila":"Divadelní hra o robotech a o tom jak je naučit jíst paštiku z hrníčku" } 
+        { "NazevDila":"Krakatit", "RokVydani":"1922" ,"PopisDila":"Román o objevu zničující trhaviny, filozofie lidského rozhodování" } ,
+        { "NazevDila":"R.U.R.", "RokVydani":"1939" ,"PopisDila":"Divadelní hra, varování před zneužitím techniky, poprvé slovo robot" },
+        { "NazevDila":"Válka s Mloky", "RokVydani":"1936" ,"PopisDila":"Antiutopický román o dopadech nezodpovědného chování společnosti" } 
       ]
     }
   ] 
