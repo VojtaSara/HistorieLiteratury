@@ -56,7 +56,7 @@
     },
     {
       "Jmeno":"Moliére",
-      "Narodnost":"Francouz",
+      "Narodnost":"Francie",
       "Narozeni":"1622",
       "Umrti":"1673",
       "Styl":"Klasicismus",
@@ -65,7 +65,36 @@
       "Zivotopis":"reálné jméno Jean Baptiste Poquelin, z prvníka kočovný herec a dramtik, vystupoval před Ludvíkem XIV, alexandrín",
       "Dila": [
         { "NazevDila":"Tartuffe neboli podvodník", "RokVydani":"1664" ,"PopisDila":"Veršovaná komedie, nejodvážnější - proti církvi, 50 repríz" },
-        { "NazevDila":"Směšné preciozky", "RokVydani":"1659" ,"PopisDila":"Jednoaktovka, komedie - preciozky = rádoby duchaplné paničky, drbny" }
+        { "NazevDila":"Směšné preciozky", "RokVydani":"1659" ,"PopisDila":"Jednoaktovka, komedie - preciozky = rádoby duchaplné paničky, drbny" },
+        { "NazevDila":"Misantrop", "RokVydani":"1666" ,"PopisDila":"Komedie, muž naráží na zkaženost lidí, stává se misantropem" },
+        { "NazevDila":"Lakomec", "RokVydani":"1668" ,"PopisDila":"Komedie, ze života pařížských měšťanů, lichvář Herpagon - peníze > život" },
+        { "NazevDila":"Zdravý nemocný", "RokVydani":"1673" ,"PopisDila":"Komedie, vysmívá se hypochondrii, ale i šarlatánství doktorů" }
+      ]
+    },
+    {
+      "Jmeno":"Jean de La Fontaine",
+      "Narodnost":"Francie",
+      "Narozeni":"1621",
+      "Umrti":"1695",
+      "Styl":"Klasicismus",
+      "Povolani":"Bajkař, básník",
+      "Zanry":"Bajka, báseň",
+      "Zivotopis":"Návrat k antice",
+      "Dila": [
+        { "NazevDila":"12 knih bajek", "RokVydani":"1668" ,"PopisDila":"Bajky psané klasickým volným veršem" }
+      ]
+    },
+    {
+      "Jmeno":"Carlo Goldoni",
+      "Narodnost":"Itálie",
+      "Narozeni":"1707",
+      "Umrti":"1793",
+      "Styl":"Klasicismus",
+      "Povolani":"Dramatik",
+      "Zanry":"Italská národní veselohra, komedie",
+      "Zivotopis":"Reforma commedie dell'arte - pozdvižení žánru, více o opravdových lidech",
+      "Dila": [
+        { "NazevDila":"Sluha dvou pánů", "RokVydani":"1745" ,"PopisDila":"hraje tam Donutil" }
       ]
     },
     {
