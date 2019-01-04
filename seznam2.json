@@ -98,6 +98,34 @@
       ]
     },
     {
+      "Jmeno":"Voltaire",
+      "Narodnost":"Francie",
+      "Narozeni":"1694",
+      "Umrti":"1778",
+      "Styl":"Osvícenství",
+      "Povolani":"Filozof, historik, dramatik, básník, publicista, prozaik",
+      "Zanry":"Povídka, román",
+      "Zivotopis":"Vytvořil filozofickou povídku a román, útočil na lidskou hloupost, rozum > církev",
+      "Dila": [
+         { "NazevDila":"Candide neboli Optimismus", "RokVydani":"1759" ,"PopisDila":"Filosofická povídka, směšnohrdinský epos, Candide = neviňátko" }
+       ]
+    },  
+    {
+      "Jmeno":"Denis Diderot",
+      "Narodnost":"Francie",
+      "Narozeni":"1713",
+      "Umrti":"1784",
+      "Styl":"Osvícenství",
+      "Povolani":"Encyklopedista, ",
+      "Zanry":"Encyklopedie, román",
+      "Zivotopis":"POTŘEBA DOPLNIT",
+      "Dila": [
+        { "NazevDila":"Jeptiška", "RokVydani":"1796" ,"PopisDila":"Satira anglického románu, kritika církve, společenská nespravedlnost" },
+        { "NazevDila":"Jakub fatalista a jeho pán", "RokVydani":"1780" ,"PopisDila":"Filosofický spor, formou dialogů, protiverze jeptišky" },
+        { "NazevDila":"Encyklopedie aneb Racionální slovník věd, umění a řemesel", "RokVydani":"1751-72" ,"PopisDila":"Svazek všeho vědění" }
+      ]
+    },
+    {
       "Jmeno":"POTŘEBA DOPLNIT",
       "Narodnost":"POTŘEBA DOPLNIT",
       "Narozeni":"POTŘEBA DOPLNIT",
@@ -109,6 +137,6 @@
       "Dila": [
         { "NazevDila":"POTŘEBA DOPLNIT", "RokVydani":"POTŘEBA DOPLNIT" ,"PopisDila":"POTŘEBA DOPLNIT" }
       ]
-    }
+    },
   ] 
 }
