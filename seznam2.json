@@ -2,6 +2,7 @@
   "autori": [
     {
       "Jmeno":"Karel Čapek",
+      "Narodnost":"Česko",
       "Narozeni":"9. 1. 1890",
       "Umrti":"25. 12. 1938",
       "Styl":"Pragmatismus, expresionismus",
@@ -12,6 +13,72 @@
         { "NazevDila":"Krakatit", "RokVydani":"1922" ,"PopisDila":"Román o objevu zničující trhaviny, filozofie lidského rozhodování" } ,
         { "NazevDila":"R.U.R.", "RokVydani":"1939" ,"PopisDila":"Divadelní hra, varování před zneužitím techniky, poprvé slovo robot" },
         { "NazevDila":"Válka s Mloky", "RokVydani":"1936" ,"PopisDila":"Antiutopický román o dopadech nezodpovědného chování společnosti" } 
+      ]
+    },
+    {
+      "Jmeno":"Josef Dobrovský",
+      "Narodnost":"Rakousko - Uhersko",
+      "Narozeni":"1753",
+      "Umrti":"1829",
+      "Styl":"POTŘEBA DOPLNIT",
+      "Povolani":"Historik, jazykovědec, zakladatel vědecké slavistiky a bohemistiky",
+      "Zanry":"Povídka, román, divadelní hra, cestopisy, dětské knihy, překlady",
+      "Zivotopis":"Mateřská jazyk němčina, uměl 12 jazyků, první vlna národního obrození",
+      "Dila": [
+        { "NazevDila":"POTŘEBA DOPLNIT", "RokVydani":"POTŘEBA DOPLNIT" ,"PopisDila":"POTŘEBA DOPLNIT" }
+      ]
+    },
+    {
+      "Jmeno":"Pierre Corneille",
+      "Narodnost":"Francie",
+      "Narozeni":"1606",
+      "Umrti":"1684",
+      "Styl":"Baroko, klasicismus",
+      "Povolani":"Dramatik",
+      "Zanry":"Tragédie",
+      "Zivotopis":"Tvůrce moderní tragédie, morální zásady jsou více než city",
+      "Dila": [
+        { "NazevDila":"Cid", "RokVydani":"1637" ,"PopisDila":"Tragédie podle středověkého španělského eposu, Cid = pán" }
+      ]
+    },
+    {
+      "Jmeno":"Jean Racine",
+      "Narodnost":"Francie",
+      "Narozeni":"1639",
+      "Umrti":"1699",
+      "Styl":"Klasicismus na základě antiky",
+      "Povolani":"Dramatik",
+      "Zanry":"Tragédie",
+      "Zivotopis":"Položil základy psychologické tragédie, psal podle striktních pravidel",
+      "Dila": [
+        { "NazevDila":"Faidra", "RokVydani":"1679" ,"PopisDila":"Tragédie, síla vášně a její důsledky, mateřská láska 18+" }
+      ]
+    },
+    {
+      "Jmeno":"Moliére",
+      "Narodnost":"Francouz",
+      "Narozeni":"1622",
+      "Umrti":"1673",
+      "Styl":"Klasicismus",
+      "Povolani":"Notář, právník, dramatik, kočovný herec, ředitel královského divadla v Paříži",
+      "Zanry":"Komedie mravů a charakterů, balet, mimické hry",
+      "Zivotopis":"reálné jméno Jean Baptiste Poquelin, z prvníka kočovný herec a dramtik, vystupoval před Ludvíkem XIV, alexandrín",
+      "Dila": [
+        { "NazevDila":"Tartuffe neboli podvodník", "RokVydani":"1664" ,"PopisDila":"Veršovaná komedie, nejodvážnější - proti církvi, 50 repríz" },
+        { "NazevDila":"Směšné preciozky", "RokVydani":"1659" ,"PopisDila":"Jednoaktovka, komedie - preciozky = rádoby duchaplné paničky, drbny" }
+      ]
+    },
+    {
+      "Jmeno":"POTŘEBA DOPLNIT",
+      "Narodnost":"POTŘEBA DOPLNIT",
+      "Narozeni":"POTŘEBA DOPLNIT",
+      "Umrti":"POTŘEBA DOPLNIT",
+      "Styl":"POTŘEBA DOPLNIT",
+      "Povolani":"POTŘEBA DOPLNIT",
+      "Zanry":"POTŘEBA DOPLNIT",
+      "Zivotopis":"POTŘEBA DOPLNIT",
+      "Dila": [
+        { "NazevDila":"POTŘEBA DOPLNIT", "RokVydani":"POTŘEBA DOPLNIT" ,"PopisDila":"POTŘEBA DOPLNIT" }
       ]
     }
   ] 
