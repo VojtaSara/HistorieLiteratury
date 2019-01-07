@@ -137,7 +137,7 @@
       "Dila": [
         { "NazevDila":"Život a zvláštní podivná dobrodružství Robinsona Crusoe, námořníka z Yorku", "RokVydani":"1719" ,"PopisDila":"Dobrodružný román, první román DD, převyprávěl J. Pleva" },
         { "NazevDila":"Moll Flandersová", "RokVydani":"1722" ,"PopisDila":"Historický román, o zločinné prostitutce, která zemře jako počestná žena" },
-        { "NazevDila":"Deník morového roku", "RokVydani":"?" ,"PopisDila":"Fiktivní deník roku 1964, kdy proběhla morová epidemie" },
+        { "NazevDila":"Deník morového roku", "RokVydani":"?" ,"PopisDila":"Fiktivní deník roku 1964, kdy proběhla morová epidemie" }
       ]
     },
     {
@@ -249,7 +249,7 @@
        "Zivotopis":"POTŘEBA DOPLNIT",
        "Dila": [
          { "NazevDila":"Faust", "RokVydani":"1808, 1832" ,"PopisDila":"Dvoudílná veršovaná tragédie, z pověsti o doktoru Faustovi - silně filozofický podtext" },
-         { "NazevDila":"Utrpení mladého Werthera", "RokVydani":"1774" ,"PopisDila":"Román v dopisech, deníková forma, citové problémy řeší sebevraždou" },
+         { "NazevDila":"Utrpení mladého Werthera", "RokVydani":"1774" ,"PopisDila":"Román v dopisech, deníková forma, citové problémy řeší sebevraždou" }
           ]
        },
       {
@@ -265,8 +265,6 @@
          { "NazevDila":"Óda na radost", "RokVydani":"1785" ,"PopisDila":"Zhudebněna Beethovenem v Deváté symfonii" },
          { "NazevDila":"Loupežníci", "RokVydani":"1781" ,"PopisDila":"Drama ze středověku, loupežník je idealizován" },
          { "NazevDila":"Úklady a láska", "RokVydani":"1784" ,"PopisDila":"Tragédie, truchlohra, za lásku milenci zaplatí smrtí" }
-
-
           ]
        },
 {
@@ -279,7 +277,7 @@
        "Zanry":"Fantastický cestopis",
        "Zivotopis":"Populární literatura",
        "Dila": [
-         { "NazevDila":"Podivuhodné cesty po vodě i souši, polní tažení a veselá dobrodružství Barona Prášila, jak je vypravuje při víně v kruhu přátel", "RokVydani":"1786" ,"PopisDila":"Fantastické" },
+         { "NazevDila":"Podivuhodné cesty po vodě i souši, polní tažení a veselá dobrodružství Barona Prášila, jak je vypravuje při víně v kruhu přátel", "RokVydani":"1786" ,"PopisDila":"Fantastické" }
           ]
        },
 {
@@ -374,7 +372,7 @@
        "Zivotopis":"Příběhy o ženách a dívkách vyšší a venkovské vrstvy",
        "Dila": [
          { "NazevDila":"Rozum a cit", "RokVydani":"1811" ,"PopisDila":"Román rodinného života - dvě sestry s rozdílným přístupem k životu ilustrují rozpor rozumu s citem" },
-         { "NazevDila":"Pýcha a předsudek", "RokVydani":"1813" ,"PopisDila":"Román rodinného života - mladá dívka si vybírá mezi neznámým Darcym a důstojníkem" },
+         { "NazevDila":"Pýcha a předsudek", "RokVydani":"1813" ,"PopisDila":"Román rodinného života - mladá dívka si vybírá mezi neznámým Darcym a důstojníkem" }
           ]
        },
 {
