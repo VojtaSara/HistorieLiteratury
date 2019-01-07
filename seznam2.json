@@ -126,17 +126,286 @@
       ]
     },
     {
-      "Jmeno":"POTŘEBA DOPLNIT",
-      "Narodnost":"POTŘEBA DOPLNIT",
-      "Narozeni":"POTŘEBA DOPLNIT",
-      "Umrti":"POTŘEBA DOPLNIT",
-      "Styl":"POTŘEBA DOPLNIT",
-      "Povolani":"POTŘEBA DOPLNIT",
-      "Zanry":"POTŘEBA DOPLNIT",
-      "Zivotopis":"POTŘEBA DOPLNIT",
+      "Jmeno":"Daniel Defoe",
+      "Narodnost":"Anglie",
+      "Narozeni":"1660",
+      "Umrti":"1731",
+      "Styl":"Osvícenství",
+      "Povolani":"Žurnalista, spisovatel, podnikatel (výroba cihel), cestovatel (utíkal před věřiteli), špion?",
+      "Zanry":"Dobrodružný román",
+      "Zivotopis":"Vlastním jménem Daniel Foe",
       "Dila": [
-        { "NazevDila":"POTŘEBA DOPLNIT", "RokVydani":"POTŘEBA DOPLNIT" ,"PopisDila":"POTŘEBA DOPLNIT" }
+        { "NazevDila":"Život a zvláštní podivná dobrodružství Robinsona Crusoe, námořníka z Yorku", "RokVydani":"1719" ,"PopisDila":"Dobrodružný román, první román DD, převyprávěl J. Pleva" },
+        { "NazevDila":"Moll Flandersová", "RokVydani":"1722" ,"PopisDila":"Historický román, o zločinné prostitutce, která zemře jako počestná žena" },
+        { "NazevDila":"Deník morového roku", "RokVydani":"?" ,"PopisDila":"Fiktivní deník roku 1964, kdy proběhla morová epidemie" },
       ]
-    }
-  ] 
+    },
+    {
+      "Jmeno":"Jonathan Swift",
+      "Narodnost":"Anglie",
+      "Narozeni":"1667",
+      "Umrti":"1745",
+      "Styl":"Osvícenství",
+      "Povolani":"Satirik, publicista",
+      "Zanry":"Satira, filosofický román",
+      "Zivotopis":"Ir",
+      "Dila": [
+        { "NazevDila":"Gulliverovy cesty", "RokVydani":"1726" ,"PopisDila":"Filosofický satirický román, fiktivní cestopis, čtyři díly, kritika poměrů a politiků" }
+        ]
+      },
+      {
+       "Jmeno":"Choderlose de Laclose",
+       "Narodnost":"Francie",
+       "Narozeni":"1741",
+       "Umrti":"1803",
+       "Styl":"Libertinismus",
+       "Povolani":"POTŘEBA DOPLNIT",
+       "Zanry":"POTŘEBA DOPLNIT",
+       "Zivotopis":"POTŘEBA DOPLNIT",
+       "Dila": [
+         { "NazevDila":"Nebezpečné známosti", "RokVydani":"1783" ,"PopisDila":"Román v dopisech, Miloš Forman: Valmont, 1989" }
+          ]
+       },
+      {
+       "Jmeno":"Markýz de Sade",
+       "Narodnost":"Francie",
+       "Narozeni":"1740",
+       "Umrti":"1814",
+       "Styl":"Libertinismus",
+       "Povolani":"Markýz?",
+       "Zanry":"Erotika",
+       "Zivotopis":"Vězněn v Bastile za skandály, ",
+       "Dila": [
+         { "NazevDila":"120 dnů sodomy", "RokVydani":"1905" ,"PopisDila":"Erotický román, sexuální násilí, vulgarita, dlouho zakázána" }
+          ]
+       },
+      {
+       "Jmeno":"Jean Jacques Rousseau",
+       "Narodnost":"Francie",
+       "Narozeni":"1712",
+       "Umrti":"1778",
+       "Styl":"Preromantismus",
+       "Povolani":"Filozof, spisovatel, pedagog",
+       "Zanry":"Didaktický (výchovný) román, román v dopisech",
+       "Zivotopis":"Svých 5 dětí odložil do sirotčince, žil z mecenášství, 2. největší filozof",
+       "Dila": [
+         { "NazevDila":"Emil aneb o výchově", "RokVydani":"1762" ,"PopisDila":"Didaktický román, individualita" },
+         { "NazevDila":"Rozprava o vědách a umění", "RokVydani":"-" ,"PopisDila":"Jsou to neřesti" },
+         { "NazevDila":"O původu nerovnosti mezi lidmi", "RokVydani":"-" ,"PopisDila":"Předznamenává VFR, člověk je přirozeně dobrý, společnost jej kazí" },
+         { "NazevDila":"O společenské smlouvě", "RokVydani":"-" ,"PopisDila":"O demokracii, zákony by si měli určovat lidé, hlavní služba obci" },
+         { "NazevDila":"Julie aneb Nová Heloisa", "RokVydani":"1761" ,"PopisDila":"Román v dopisech, sentimentalismus, láska učitele a šlechtické dívky" }
+          ]
+       },
+      {
+       "Jmeno":"Francois-René de Chateaubriand",
+       "Narodnost":"Francie",
+       "Narozeni":"1768",
+       "Umrti":"1848",
+       "Styl":"Preromantismus a Romantismus",
+       "Povolani":"Prozaik, kritik, historik, cestovatel",
+       "Zanry":"Novela",
+       "Zivotopis":"Odpůrce VFR, emigroval do Anglie, cestoval po Severní Americe",
+       "Dila": [
+         { "NazevDila":"Atala", "RokVydani":"1801" ,"PopisDila":"Novela o lásce dvou indiánů" }
+          ]
+       },
+      {
+       "Jmeno":"Gotthold Ephraim Lessing",
+       "Narodnost":"Německo",
+       "Narozeni":"1729",
+       "Umrti":"1781",
+       "Styl":"Preromantismus",
+       "Povolani":"Umělecký kritik, novinář, básník, dramatik, dramaturg",
+       "Zanry":"Drama",
+       "Zivotopis":"Dramaturg divadla v Hamburku, ",
+       "Dila": [
+         { "NazevDila":"Hamburská dramaturgie", "RokVydani":"-" ,"PopisDila":"Teorie chodu divadla, vymezení vůči klasicismu a hanswurstiádám, soustrázeň " },
+         { "NazevDila":"Emilie Galotti", "RokVydani":"1772" ,"PopisDila":"Drama podle reálné události v Itálii" },
+         { "NazevDila":"Mína z Barnhelmu", "RokVydani":"1767" ,"PopisDila":"Měšťanská komedie, veselohra" }
+
+          ]
+       },
+      {
+       "Jmeno":"Johann Gottfried Herder",
+       "Narodnost":"Německo",
+       "Narozeni":"1744",
+       "Umrti":"1803",
+       "Styl":"Preromantismus",
+       "Povolani":"Folklorista",
+       "Zanry":"-",
+       "Zivotopis":"Teoretik Sturm und Drang, měl rád slovany, \”lidová poezie obrazem národního charakteru\” ",
+       "Dila": [
+         { "NazevDila":"Lidové písně", "RokVydani":"-" ,"PopisDila":"Počátek romantismu" }
+          ]
+       },
+      {
+       "Jmeno":"Johann Wolfgang von Goethe",
+       "Narodnost":"Německo",
+       "Narozeni":"1749",
+       "Umrti":"1832",
+       "Styl":"Preromantismus",
+       "Povolani":"spisovatel, politik, právník",
+       "Zanry":"Drama, poezie, romány",
+       "Zivotopis":"POTŘEBA DOPLNIT",
+       "Dila": [
+         { "NazevDila":"Faust", "RokVydani":"1808, 1832" ,"PopisDila":"Dvoudílná veršovaná tragédie, z pověsti o doktoru Faustovi - silně filozofický podtext" },
+         { "NazevDila":"Utrpení mladého Werthera", "RokVydani":"1774" ,"PopisDila":"Román v dopisech, deníková forma, citové problémy řeší sebevraždou" },
+          ]
+       },
+      {
+       "Jmeno":"Friedrich Shiller",
+       "Narodnost":"Německo",
+       "Narozeni":"1759",
+       "Umrti":"1805",
+       "Styl":"Preromantismus, klasicismus",
+       "Povolani":"Básník, filozof, historik, dramatik, učizel, novinář",
+       "Zanry":"Balada, divadelní hra",
+       "Zivotopis":"Přítel Goetha, podporoval nové ideály osobní a národní svobody",
+       "Dila": [
+         { "NazevDila":"Óda na radost", "RokVydani":"1785" ,"PopisDila":"Zhudebněna Beethovenem v Deváté symfonii" },
+         { "NazevDila":"Loupežníci", "RokVydani":"1781" ,"PopisDila":"Drama ze středověku, loupežník je idealizován" },
+         { "NazevDila":"Úklady a láska", "RokVydani":"1784" ,"PopisDila":"Tragédie, truchlohra, za lásku milenci zaplatí smrtí" }
+
+
+          ]
+       },
+{
+       "Jmeno":"Gottfried August Burger",
+       "Narodnost":"Německo",
+       "Narozeni":"1747",
+       "Umrti":"1794",
+       "Styl":"Preromantismus",
+       "Povolani":"Básník, prozaik, překladatel",
+       "Zanry":"Fantastický cestopis",
+       "Zivotopis":"Populární literatura",
+       "Dila": [
+         { "NazevDila":"Podivuhodné cesty po vodě i souši, polní tažení a veselá dobrodružství Barona Prášila, jak je vypravuje při víně v kruhu přátel", "RokVydani":"1786" ,"PopisDila":"Fantastické" },
+          ]
+       },
+{
+       "Jmeno":"Lord George Gordon Byron",
+       "Narodnost":"Anglie",
+       "Narozeni":"1788",
+       "Umrti":"1824",
+       "Styl":"Romantismus",
+       "Povolani":"Šlechtic, aristokrat, ",
+       "Zanry":"Lyrickoepické, byronské (básnické) povídky - poémy, básnická dramata",
+       "Zivotopis":"Pohledný, nekonzervativní, pobuřoval názory i životním stylem, cestoval, zemřel při pomoci v boji Řekům proti Turkům",
+       "Dila": [
+         { "NazevDila":"Childe Haroldova Pouť", "RokVydani":"1812" ,"PopisDila":"Autobiografický veršovaný moderní epos, trpící melancholický šlechtic" },
+         { "NazevDila":"Korzár, Džaur...", "RokVydani":"1813" ,"PopisDila":"Poémy, vstupy autora, četné reflexivní části" }
+          ]
+       },
+{
+       "Jmeno":"Bratři Grimmové", 
+       "Narodnost":"Německo",
+       "Narozeni":"1785",
+       "Umrti":"1863",
+       "Styl":"Romantismus",
+       "Povolani":"Jeden sběrač lid. slovesnosti, druhý lingvista a filolog",
+       "Zanry":"Pohádky",
+       "Zivotopis":"Sbírali lidovou slovesnost, sepisovali jí a zkoumali i na vědecké úrovni, Sněhurka, Šípková Růženka… v drsném originálním znění",
+       "Dila": [
+         { "NazevDila":"Pohádky bratří Grimmů", "RokVydani":"1812" ,"PopisDila":"239 pohádkových příběhů, proslulé dodnes díky transcendentní kvalitě témat (dobro, zlo...)" } 
+          ]
+       },
+{
+       "Jmeno":"Percy Bysshe Shelley",
+       "Narodnost":"Anglie",
+       "Narozeni":"1792",
+       "Umrti":"1822",
+       "Styl":"Romantismus",
+       "Povolani":"Básník",
+       "Zanry":"Lyrické básně, eposy",
+       "Zivotopis":"Vzpoura proti konvencím, přítel Byrona, cestoval a zahynul při bouři, manželka Mary Shelleyová",
+       "Dila": [
+         { "NazevDila":"Frankenstein neboli moderní Prométeus", "RokVydani":"1818" ,"PopisDila":"Hororový román jeho manželky Mary" } 
+          ]
+       },
+{
+       "Jmeno":"John Keats",
+       "Narodnost":"Anglie",
+       "Narozeni":"1795",
+       "Umrti":"1821",
+       "Styl":"Romantismus",
+       "Povolani":"Básník",
+       "Zanry":"Lyrické básně",
+       "Zivotopis":"Jeden z jezerních básníků",
+       "Dila": [
+         { "NazevDila":"nic", "RokVydani":"nic" ,"PopisDila":"nic" }
+          ]
+       },
+{
+       "Jmeno":"Walter Scott",
+       "Narodnost":"Anglie",
+       "Narozeni":"1771",
+       "Umrti":"1832",
+       "Styl":"Romantismus",
+       "Povolani":"Básník, prozaik, romanopisec",
+       "Zanry":"Historický román",
+       "Zivotopis":"Zakladatel historické povídky a románu, měl rád gotiku a středověk, básník potom prozaik, Skot",
+       "Dila": [
+         { "NazevDila":"Jezerní panna", "RokVydani":"1810" ,"PopisDila":"Epická báseň, námět báje o Artušovi" },
+         { "NazevDila":"Zpěvy ze skotského pohraničí", "RokVydani":"1802" ,"PopisDila":"Folklor" },
+         { "NazevDila":"Ivanhoe", "RokVydani":"1819" ,"PopisDila":"Historický román, rytířství v době Richarda Lví srdce - středověk" }
+          ]
+       },
+{
+       "Jmeno":"James McPherson",
+       "Narodnost":"Skotsko",
+       "Narozeni":"1736",
+       "Umrti":"1796",
+       "Styl":"Romantismus",
+       "Povolani":"Poslanec",
+       "Zanry":"Básně",
+       "Zivotopis":"Žil a pak zemřel, Samuel Johnson exposnul, že napsal falsifikát",
+       "Dila": [
+         { "NazevDila":"Ossian", "RokVydani":"1761" ,"PopisDila":"Falsifikát o keltském bardovi, zlidověl" }
+          ]
+       },
+{
+       "Jmeno":"Jane Austenová",
+       "Narodnost":"Anglie",
+       "Narozeni":"1775",
+       "Umrti":"1817",
+       "Styl":"Romantismus",
+       "Povolani":"Spisovatelka, povídkářka a romanopiskyně",
+       "Zanry":"Rodinný román",
+       "Zivotopis":"Příběhy o ženách a dívkách vyšší a venkovské vrstvy",
+       "Dila": [
+         { "NazevDila":"Rozum a cit", "RokVydani":"1811" ,"PopisDila":"Román rodinného života - dvě sestry s rozdílným přístupem k životu ilustrují rozpor rozumu s citem" },
+         { "NazevDila":"Pýcha a předsudek", "RokVydani":"1813" ,"PopisDila":"Román rodinného života - mladá dívka si vybírá mezi neznámým Darcym a důstojníkem" },
+          ]
+       },
+{
+       "Jmeno":"Viktor Hugo",
+       "Narodnost":"Francie",
+       "Narozeni":"1802",
+       "Umrti":"1885",
+       "Styl":"Romantismus",
+       "Povolani":"Básník, prozaik, dramatik, esejista, politik",
+       "Zanry":"Román, poezie, činohra, pamflet",
+       "Zivotopis":"Žil za divokých politických zvratů ve Francii - Napoleon etc.",
+       "Dila": [
+         { "NazevDila":"Legenda věků", "RokVydani":"1859,1877,1883" ,"PopisDila":"Třídílný básnický cyklus, cesta lidstva za pokrokem a humanitou" },
+         { "NazevDila":"Chrám Matky Boží v Pařízi", "RokVydani":"1831" ,"PopisDila":"Historický román, hrbáč Quasimodo se zamiluje do cikánky Esmeraldy a když je popravena objímá ji v hrobě" },
+         { "NazevDila":"Ubožáci nebo Bídníci", "RokVydani":"1862" ,"PopisDila":"Společenský román, pozdní romantismus ovlivněn realismem, literární typ Jean Valjean " }
+
+
+          ]
+       },
+{
+       "Jmeno":"Alfred de Musset",
+       "Narodnost":"Francie",
+       "Narozeni":"1810",
+       "Umrti":"1857",
+       "Styl":"Romantismus",
+       "Povolani":"Dramatik, básník",
+       "Zanry":"Drama, básně, povídky",
+       "Zivotopis":"Úředník, který ve volném čase psal",
+       "Dila": [
+         { "NazevDila":"Zpověď dítěte svého věku", "RokVydani":"POTŘEBADOPLNIT" ,"PopisDila":"Rom" }
+          ]
+       }
+]
 }
