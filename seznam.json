@@ -20,12 +20,16 @@
       "Narodnost":"Rakousko - Uhersko",
       "Narozeni":"1753",
       "Umrti":"1829",
-      "Styl":"POTŘEBA DOPLNIT",
+      "Styl":"České národní obrození, osvícenství",
       "Povolani":"Historik, jazykovědec, zakladatel vědecké slavistiky a bohemistiky",
       "Zanry":"Povídka, román, divadelní hra, cestopisy, dětské knihy, překlady",
-      "Zivotopis":"Mateřská jazyk němčina, uměl 12 jazyků, první vlna národního obrození",
+      "Zivotopis":"Mateřská jazyk němčina, uměl 12 jazyků, první vlna národního obrození, kněz, objektivní vědecký kritik",
       "Dila": [
-        { "NazevDila":"POTŘEBA DOPLNIT", "RokVydani":"POTŘEBA DOPLNIT" ,"PopisDila":"POTŘEBA DOPLNIT" }
+        { "NazevDila":"Dějiny české literatury", "RokVydani":"1792" ,"PopisDila":"Paradoxně německy, česká literární historie" },
+        { "NazevDila":"Německo-český slovník", "RokVydani":"1802" ,"PopisDila":"Slovník na základě veleslavínské češtiny" },
+        { "NazevDila":"Podrobná mluvnice českého jazyka", "RokVydani":"1809" ,"PopisDila":"Německy ustaluje spisovnou češtinu" },
+        { "NazevDila":"Základy staroslověnského jazyka", "RokVydani":"1822" ,"PopisDila":"Základní dílo slavistiky, historie slovanských jazyků, latinsky" },
+        { "NazevDila":"Česká prozodie", "RokVydani":"1795" ,"PopisDila":"Stať stanovující zásady české prozodie, časomíra nevhodná, raději trochejská sylabotonická" }
       ]
     },
     {
@@ -122,7 +126,7 @@
       "Dila": [
         { "NazevDila":"Jeptiška", "RokVydani":"1796" ,"PopisDila":"Satira anglického románu, kritika církve, společenská nespravedlnost" },
         { "NazevDila":"Jakub fatalista a jeho pán", "RokVydani":"1780" ,"PopisDila":"Filosofický spor, formou dialogů, protiverze jeptišky" },
-        { "NazevDila":"Encyklopedie aneb Racionální slovník věd, umění a řemesel", "RokVydani":"1751-72" ,"PopisDila":"Svazek všeho vědění" }
+        { "NazevDila":"Encyklopedie", "RokVydani":"1751-72" ,"PopisDila":"Svazek všeho vědění" }
       ]
     },
     {
@@ -135,7 +139,7 @@
       "Zanry":"Dobrodružný román",
       "Zivotopis":"Vlastním jménem Daniel Foe",
       "Dila": [
-        { "NazevDila":"Život a zvláštní podivná dobrodružství Robinsona Crusoe, námořníka z Yorku", "RokVydani":"1719" ,"PopisDila":"Dobrodružný román, první román DD, převyprávěl J. Pleva" },
+        { "NazevDila":"Robinson Crusoe", "RokVydani":"1719" ,"PopisDila":"Dobrodružný román, první román DD, převyprávěl J. Pleva" },
         { "NazevDila":"Moll Flandersová", "RokVydani":"1722" ,"PopisDila":"Historický román, o zločinné prostitutce, která zemře jako počestná žena" },
         { "NazevDila":"Deník morového roku", "RokVydani":"?" ,"PopisDila":"Fiktivní deník roku 1964, kdy proběhla morová epidemie" }
       ]
@@ -277,7 +281,7 @@
        "Zanry":"Fantastický cestopis",
        "Zivotopis":"Populární literatura",
        "Dila": [
-         { "NazevDila":"Podivuhodné cesty po vodě i souši, polní tažení a veselá dobrodružství Barona Prášila, jak je vypravuje při víně v kruhu přátel", "RokVydani":"1786" ,"PopisDila":"Fantastické" }
+         { "NazevDila":"Dobrodružství Barona Prášila (není celý název)", "RokVydani":"1786" ,"PopisDila":"Fantastické" }
           ]
        },
 {
@@ -404,6 +408,206 @@
        "Dila": [
          { "NazevDila":"Zpověď dítěte svého věku", "RokVydani":"POTŘEBADOPLNIT" ,"PopisDila":"Rom" }
           ]
+       },
+{
+       "Jmeno":"Ivan Andrejevič Krylov",
+       "Narodnost":"POTŘEBADOPLNIT", 
+       "Narozeni":"POTŘEBADOPLNIT",
+       "Umrti":"POTŘEBADOPLNIT",
+       "Styl":"POTŘEBADOPLNIT",
+       "Povolani":"POTŘEBADOPLNIT",
+       "Zanry":"POTŘEBADOPLNIT",
+       "Zivotopis":"POTŘEBADOPLNIT",
+       "Dila": [
+         { "NazevDila":"POTŘEBADOPLNIT", "RokVydani":"POTŘEBADOPLNIT" ,"PopisDila":"POTŘEBADOPLNIT" }
+          ]
+       },
+{
+       "Jmeno":"Alexandr Sergejevič Puškin",
+       "Narodnost":"Rusko",
+       "Narozeni":"POTŘEBADOPLNIT",
+       "Umrti":"POTŘEBADOPLNIT",
+       "Styl":"POTŘEBADOPLNIT",
+       "Povolani":"POTŘEBADOPLNIT",
+       "Zanry":"POTŘEBADOPLNIT",
+       "Zivotopis":"POTŘEBADOPLNIT",
+       "Dila": [
+         { "NazevDila":"POTŘEBADOPLNIT", "RokVydani":"POTŘEBADOPLNIT" ,"PopisDila":"POTŘEBADOPLNIT" }
+          ]
+       },
+{
+       "Jmeno":"Michail J. Lermontov",
+       "Narodnost":"Rusko",
+       "Narozeni":"POTŘEBADOPLNIT",
+       "Umrti":"POTŘEBADOPLNIT",
+       "Styl":"POTŘEBADOPLNIT",
+       "Povolani":"POTŘEBADOPLNIT",
+       "Zanry":"POTŘEBADOPLNIT",
+       "Zivotopis":"POTŘEBADOPLNIT",
+       "Dila": [
+         { "NazevDila":"POTŘEBADOPLNIT", "RokVydani":"POTŘEBADOPLNIT" ,"PopisDila":"POTŘEBADOPLNIT" }
+          ]
+       },
+{
+       "Jmeno":"Nikolaj Vasiljevič Gogol",
+       "Narodnost":"Rusko",
+       "Narozeni":"POTŘEBADOPLNIT",
+       "Umrti":"POTŘEBADOPLNIT",
+       "Styl":"Pomezí romantismu a realismu",
+       "Povolani":"POTŘEBADOPLNIT",
+       "Zanry":"POTŘEBADOPLNIT",
+       "Zivotopis":"POTŘEBADOPLNIT",
+       "Dila": [
+         { "NazevDila":"POTŘEBADOPLNIT", "RokVydani":"POTŘEBADOPLNIT" ,"PopisDila":"POTŘEBADOPLNIT" }
+          ]
+       },
+{
+       "Jmeno":"Josef Jungmann",
+       "Narodnost":"Česko",
+       "Narozeni":"1773",
+       "Umrti":"1847",
+       "Styl":"Národní obrození",
+       "Povolani":"Spisovatel, lexikograf, jazykovědec, básník, překladatel, pedagog",
+       "Zanry":"Překlady, odborná pojednání",
+       "Zivotopis":"Vystudoval práva, ofenzivní část obrození - snaha prosadit češtinu - vymýšlení slov",
+       "Dila": [
+         { "NazevDila":"Slovník česko-německý", "RokVydani":"1834" ,"PopisDila":"Slovník, mnoho nových slov" },
+         { "NazevDila":"Historie literatury české", "RokVydani":"1825" ,"PopisDila":"Soupis všech významných českých děl, rozšiřuje Dobrovského" }
+          ]
+       },
+{
+       "Jmeno":"František Martin Pelcl",
+       "Narodnost":"Česko",
+       "Narozeni":"1734",
+       "Umrti":"1801",
+       "Styl":"Národní obrození",
+       "Povolani":"Profesor, historik, jazykovědec",
+       "Zanry":"Historicky naučné, jazykověda",
+       "Zivotopis":"První profesor českého jazyka a literatury na pražské universitě, pokračovatel Dobnera, věřil v českou kulturu",
+       "Dila": [
+         { "NazevDila":"Nová kronika česká", "RokVydani":"1791" ,"PopisDila":"Kronika, která měla nahradit Hájkovu, první pokus o vědecky historické dílo ČNO" }
+          ]
+       },
+{
+       "Jmeno":"Gelasius Dobner",
+       "Narodnost":"Česko",
+       "Narozeni":"1719",
+       "Umrti":"1790",
+       "Styl":"Národní obrození",
+       "Povolani":"Historik, národní buditel",
+       "Zanry":"POTŘEBADOPLNIT",
+       "Zivotopis":"POTŘEBADOPLNIT",
+       "Dila": [
+         { "NazevDila":"POTŘEBADOPLNIT", "RokVydani":"POTŘEBADOPLNIT" ,"PopisDila":"POTŘEBADOPLNIT" }
+          ]
+       },
+{
+       "Jmeno":"Pavel Josef Šafařík",
+       "Narodnost":"Česko",
+       "Narozeni":"1795",
+       "Umrti":"1861",
+       "Styl":"Národní obrození",
+       "Povolani":"Překladatel, jazykovědec, básník, historik, pedagog",
+       "Zanry":"Historická odborná díla",
+       "Zivotopis":"Myšlenka panslavismu - slovanské vzájemnosti, je z *Jungmannovy školy*",
+       "Dila": [
+         { "NazevDila":"Slovanské starožitnosti", "RokVydani":"1842" ,"PopisDila":"Základní pilíře slovanské filologie" }
+          ]
+       },
+{
+       "Jmeno":"František Palacký",
+       "Narodnost":"Česko",
+       "Narozeni":"1798",
+       "Umrti":"1876",
+       "Styl":"Národní obrození",
+       "Povolani":"Poslanec, spisovatel, historik",
+       "Zanry":"Historická díla, překlady ",
+       "Zivotopis":"Zastánce austroslavismu",
+       "Dila": [
+         { "NazevDila":"Dějiny nár. českého v čechách i moravě", "RokVydani":"1836" ,"PopisDila":"Vytvoření obrazu českých dějin - důležité téma husitství" }
+          ]
+       },
+{
+       "Jmeno":"Jan Kollár",
+       "Narodnost":"Česko",
+       "Narozeni":"1793",
+       "Umrti":"1852",
+       "Styl":"Národní obrození",
+       "Povolani":"Básník, jazykovědec, evangelický duchovní",
+       "Zanry":"Poezie, učebnice",
+       "Zivotopis":"Panslavista, vytváření slovanského mýtu (božstvo, symboly)",
+       "Dila": [
+         { "NazevDila":"Slávy dcera", "RokVydani":"1824" ,"PopisDila":"Básnická skladba psaná časomírou, plná aluzí, o dceři bohyně Slávy" }
+          ]
+       },
+{
+       "Jmeno":"František Ladislav Čelakovský",
+       "Narodnost":"Česko",
+       "Narozeni":"1799",
+       "Umrti":"1852",
+       "Styl":"Národní obrození",
+       "Povolani":"Básník, folklorista, prozaik",
+       "Zanry":"Ohlasová poezie, lidová slovesnost",
+       "Zivotopis":"Sbíral lidovou slovesnost, panslavista",
+       "Dila": [
+         { "NazevDila":"Ohlas písní ruských", "RokVydani":"1829" ,"PopisDila":"Napodobení ruské epiky, tzv. byliny, hrdinské postavy (Čurila Plenkovič)" },
+         { "NazevDila":"Ohlas písní českých", "RokVydani":"1839" ,"PopisDila":"např. báseň Toman a lesní panna - Tomana zabije v lese lesní panna" }
+          ]
+       },
+{
+       "Jmeno":"Václav Kliment Klicpera",
+       "Narodnost":"Česko",
+       "Narozeni":"1792",
+       "Umrti":"1856",
+       "Styl":"Národní obrození",
+       "Povolani":"Učitel, dramatik",
+       "Zanry":"Aktovky (drama)",
+       "Zivotopis":"Důležitá postava českého divadla, které se v době národního obrození dralo na povrch",
+       "Dila": [
+         { "NazevDila":"Kníže Honzík", "RokVydani":"1771" ,"PopisDila":"První česká hra, velmi primitivní činohra, fiasko" }
+          ]
+       },
+{
+       "Jmeno":"Karel Jaromír Erben",
+       "Narodnost":"Česko",
+       "Narozeni":"1811",
+       "Umrti":"1817",
+       "Styl":"Romantismus",
+       "Povolani":"Redaktor Pražských novin, právník, úředník, vědec,",
+       "Zanry":"Balady, pověsti, pohádky",
+       "Zivotopis":"Pěvec českého národa, zabývá se folklorem, spolupracuje s Palackým",
+       "Dila": [
+         { "NazevDila":"Kytice z pověstí národních", "RokVydani":"1853" ,"PopisDila":"Básnická sbírka - balady/pověsti/pohádky, témata viny a trestu, osudovosti... " },
+         { "NazevDila":"České pohádky", "RokVydani":"1905" ,"PopisDila":"Nedokončená sbírka pohádek (vydáno po smrti), např. Dlouhý Široký a Bystrozraký" }
+          ]
+       },
+     {
+       "Jmeno":"Josef Kajetán Tyl",
+       "Narodnost":"Česko",
+       "Narozeni":"1808",
+       "Umrti":"1856",
+       "Styl":"Národní obrození",
+       "Povolani":"Dramatik, prozaik, básník, kritik, novinář",
+       "Zanry":"Historické povídky",
+       "Zivotopis":"Kritik Máchy, dramaturg ve stavovském divadle, známost s Klicperou, lowkey debil",
+       "Dila": [
+         { "NazevDila":"Rozervanec", "RokVydani":"1840" ,"PopisDila":"Kritika umělecky naprosto superiorního Máchy - karikatura, proti romantismu" }, 
+         { "NazevDila":"Poslední Čech", "RokVydani":"1844" ,"PopisDila":"Neúspěšný román" },
+         { "NazevDila":"Strakonický dudák", "RokVydani":"1847" ,"PopisDila":"Divadelní hra, směšně špatný pokus o umění urážející inteligenci diváka" } 
+          ]
+       },
+     {
+       "Jmeno":"Karel Hynek Mácha",
+       "Narodnost":"Česko",
+       "Narozeni":"1810",
+       "Umrti":"1836",
+       "Styl":"Romantismus",
+       "Povolani":"Ochotný divadelník, básník",
+       "Zanry":"Poezie, autobiografie, próza",
+       "Zivotopis":"V ochotnickém divadle potkal osudovou lásku Eleonoru Šomkovou, rád cestuje, umírá na nemoc den před svatbou, Litoměřice - Radobýl",
+       "Dila": [
+         { "NazevDila":"Máj", "RokVydani":"1836" ,"PopisDila":"Stěžejní dílo české poezie, epická poezie, brilantní kompozice, téma otcovraždy a trestu, zprvu negat. ohlasy" }
+          ]
        }
-    ]
+]
 }
