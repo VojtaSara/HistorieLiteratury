@@ -19,6 +19,10 @@ var globallyCorrect = 0;
 var immidiateWrong = 0;
 var hadaciBoxy = [];
 var progress;
+// Flashcard gameMode
+var typKarticky = null;
+var tempMasterList2 = [];
+var kartickaFlipped = false;
 
 function preload() {
   masterList = loadJSON("https://raw.githubusercontent.com/VojtaSara/HistorieLiteratury/master/seznam.json");
@@ -31,8 +35,12 @@ function setup() {
   displayAutor(0);
   b1 = new button(200,"Zobrazit přehled autorů");
   b2 = new button(280,"Přiřaď autory k dílům");
-  b3 = new button(360,"Uhádni dílo");
+  b3 = new button(360,"Flashcards");
   b4 = new button(800,"Zpět");
+  b5 = new button(200,"Autor / země");
+  b6 = new button(280,"Autor / směr");
+  b7 = new button(360,"Dílo / autor");
+  b8 = new button(440,"Popis / dílo");
   tempMasterList = JSON.parse(JSON.stringify(masterList));
   createGuessGrid();
   for(i = 0; i < 5; i++) {
@@ -127,10 +135,36 @@ function draw() {
     textAlign(CENTER);
     textSize(32);
     noStroke();
-    text("Skóre:\n" + (score + immidiateScore), width/2, height/2 - mezery*3);
+    text("Skóre:\n" + (score + immidiateScore) + "\n z " + masterList.autori.length + "ti", width/2, height/2 - mezery*3);
     b4.show();
   } else if (gameMode == 3) {
-
+    textSize(32);
+    if (typKarticky == null) {
+      text("Typy kartiček:", width/2, 120);
+      b5.show();
+      b6.show();
+      b7.show();
+      b8.show();
+    } else {
+      if (typKarticky == 1) {
+        text("Autor / země", width/2, 120);
+      } else if(typKarticky == 2) {
+        text("Autor / směr", width/2, 120);
+      } else if(typKarticky == 3) {
+        text("Dílo / autor", width/2, 120);
+      } else if(typKarticky == 4) {
+        text("Popis / dílo", width/2, 120);
+      }
+      rectMode(CENTER);
+      if (kartickaFlipped) {
+        fill(214);
+      } else {
+        fill(255);
+      }
+      stroke(1);
+      rect(width/2,height/2 - mezery*6, width/3,mezery*10);
+      rectMode(CORNER);
+    }
     b4.show();
   }
 }
@@ -144,7 +178,7 @@ function mousePressed() {
       gameMode = 2;
     }
     if (mouseX > width/2-150 && mouseX < width/2 + 150 && mouseY > 360 - 30 && mouseY < 360 + 30) {
-      gameMode = 2;
+      gameMode = 3;
     }
   } else if (gameMode == 1) {
     if (mouseX < sloup && momentalniAutor > 0) {
@@ -169,6 +203,25 @@ function mousePressed() {
   } else if (gameMode == 3) {
     if (mouseX > width/2-150 && mouseX < width/2 + 150 && mouseY > b4.y - 30 && mouseY < b4.y + 30) {
       gameMode = 0;
+      typKarticky = null;
+    }
+    if (typKarticky == null) {
+      if (mouseX > width/2-150 && mouseX < width/2 + 150 && mouseY > b5.y - 30 && mouseY < b5.y + 30) {
+        typKarticky = 1;
+      }
+      if (mouseX > width/2-150 && mouseX < width/2 + 150 && mouseY > b6.y - 30 && mouseY < b6.y + 30) {
+        typKarticky = 2;
+      }
+      if (mouseX > width/2-150 && mouseX < width/2 + 150 && mouseY > b7.y - 30 && mouseY < b7.y + 30) {
+        typKarticky = 3;
+      }
+      if (mouseX > width/2-150 && mouseX < width/2 + 150 && mouseY > b8.y - 30 && mouseY < b8.y + 30) {
+        typKarticky = 4;
+      }
+    } else {
+      if (mouseX > width/2 - (width/3)/2 && mouseY > height/2 - mezery*11 && mouseX < width/2 + (width/3)/2 && mouseY < height/2 - mezery) {
+        kartickaFlipped = !kartickaFlipped;
+      }
     }
   }
 }
@@ -188,7 +241,9 @@ class button {
     rect(width/2-150,this.y-30,300,60);
     fill(0);
     textAlign(CENTER, CENTER);
+    stroke(120,120,120);
     text(this.text,width/2,this.y);
+    stroke(0);
   }
 }
 
@@ -273,7 +328,7 @@ function displayProgress() {
   fill(255);
   stroke(0);
   rect(sloup + mezery, mezery, width - sloup - mezery, mezery*2);
-  fill(255, 0, 0);
+  fill(206, 66, 87);
   rectMode(CORNER);
   rect(sloup + mezery, mezery, (width - sloup - mezery)*(globallyCorrect/masterList.autori.length), mezery);
   fill(0);
@@ -318,8 +373,11 @@ function displayAutor(num) {
   }
 }
 
+function randomList() {
+  tempMasterList2 = shuffle(JSON.parse(JSON.stringify(masterList)));
+}
+
 function createGuessGrid() {
-  progress = (tempMasterList.autori.length/masterList.autori.length);
   for(i = 0; i < 5; i++) {
     var randomNum = floor(random(tempMasterList.autori.length));
     if (tempMasterList.autori.length > 1) {
