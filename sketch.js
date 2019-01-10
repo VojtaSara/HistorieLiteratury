@@ -23,6 +23,7 @@ var progress;
 var typKarticky = null;
 var tempMasterList2 = [];
 var kartickaFlipped = false;
+var currentFlashcard = 0;
 
 function preload() {
   masterList = loadJSON("https://raw.githubusercontent.com/VojtaSara/HistorieLiteratury/master/seznam.json");
@@ -38,17 +39,9 @@ function setup() {
   b3 = new button(360,"Flashcards");
   b4 = new button(800,"Zpět");
   b5 = new button(200,"Autor / země");
-  b6 = new button(280,"Autor / směr");
+  b6 = new button(280,"Autor / etapa");
   b7 = new button(360,"Dílo / autor");
   b8 = new button(440,"Popis / dílo");
-  tempMasterList = JSON.parse(JSON.stringify(masterList));
-  createGuessGrid();
-  for(i = 0; i < 5; i++) {
-    hadaciBoxy[i] = new hadaciBox(i,true);
-  }
-  for(i = 5; i < 10; i++) {
-    hadaciBoxy[i] = new hadaciBox(i - 5,false);
-  }
 }
 
 function windowResized() {
@@ -119,9 +112,10 @@ function draw() {
       immidiateWrong = 0;
       immidiateScore = 0;
       if (globallyCorrect > masterList.autori.length-masterList.autori.length%5 - 1) {
+        fill(0);
         text("Konec!", width/2, height/2 - 100);
       } else {
-        createGuessGrid();
+        createRandomList(true);
         hadaciBoxy = [];
         for(i = 0; i < 5; i++) {
           hadaciBoxy[i] = new hadaciBox(i,true);
@@ -135,7 +129,7 @@ function draw() {
     textAlign(CENTER);
     textSize(32);
     noStroke();
-    text("Skóre:\n" + (score + immidiateScore) + "\n z " + masterList.autori.length + "ti", width/2, height/2 - mezery*3);
+    text("Skóre:\n" + (score + immidiateScore) + "\n z " + masterList.autori.length, width/2, height/2 - mezery*3);
     b4.show();
   } else if (gameMode == 3) {
     textSize(32);
@@ -146,15 +140,6 @@ function draw() {
       b7.show();
       b8.show();
     } else {
-      if (typKarticky == 1) {
-        text("Autor / země", width/2, 120);
-      } else if(typKarticky == 2) {
-        text("Autor / směr", width/2, 120);
-      } else if(typKarticky == 3) {
-        text("Dílo / autor", width/2, 120);
-      } else if(typKarticky == 4) {
-        text("Popis / dílo", width/2, 120);
-      }
       rectMode(CENTER);
       if (kartickaFlipped) {
         fill(214);
@@ -164,6 +149,32 @@ function draw() {
       stroke(1);
       rect(width/2,height/2 - mezery*6, width/3,mezery*10);
       rectMode(CORNER);
+      fill(0);
+      noStroke();
+      if (typKarticky == 1) {
+        text("Autor / země", width/2, 120);
+        if (!kartickaFlipped) {text(sadaAutoru[currentFlashcard].Jmeno, width/2, 320);}
+        else {text(sadaAutoru[currentFlashcard].Narodnost, width/2, 320);}
+      } else if(typKarticky == 2) {
+        text("Autor / etapa", width/2, 120);
+        if (!kartickaFlipped) {text(sadaAutoru[currentFlashcard].Jmeno, width/2, 320);}
+        else {text(sadaAutoru[currentFlashcard].Styl, width/2, 320);}
+      } else if(typKarticky == 3) {
+        text("Dílo / autor", width/2, 120);
+        if (!kartickaFlipped) {text(sadaAutoru[currentFlashcard].Jmeno, width/2, 320);}
+        else {text(sadaAutoru[currentFlashcard].Narodnost, width/2, 320);}
+      } else if(typKarticky == 4) {
+        text("Popis / dílo", width/2, 120);
+        if (!kartickaFlipped) {text(sadaAutoru[currentFlashcard].Jmeno, width/2, 320);}
+        else {text(sadaAutoru[currentFlashcard].Narodnost, width/2, 320);}
+      }
+      strokeWeight(4);
+      stroke(0);
+      line(width/2 + width/6 + mezery*2, 320, width/2 + width/6 + mezery, 320 + mezery);
+      line(width/2 + width/6 + mezery*2, 320, width/2 + width/6 + mezery, 320 - mezery);
+      line(width/2 - width/6 - mezery*2, 320, width/2 - width/6 - mezery, 320 + mezery);
+      line(width/2 - width/6 - mezery*2, 320, width/2 - width/6 - mezery, 320 - mezery);
+      strokeWeight(1);
     }
     b4.show();
   }
@@ -176,9 +187,24 @@ function mousePressed() {
     }
     if (mouseX > width/2-150 && mouseX < width/2 + 150 && mouseY > 280 - 30 && mouseY < 280 + 30) {
       gameMode = 2;
+      tempMasterList = JSON.parse(JSON.stringify(masterList));
+      createRandomList(true);
+      for(i = 0; i < 5; i++) {
+        hadaciBoxy[i] = new hadaciBox(i,true);
+      }
+      for(i = 5; i < 10; i++) {
+        hadaciBoxy[i] = new hadaciBox(i - 5,false);
+      }
+      immidiateScore = 0;
+      score = 0;
+      immidiateCorrect = 0;
+      globallyCorrect = 0;
+      immidiateWrong = 0;
     }
     if (mouseX > width/2-150 && mouseX < width/2 + 150 && mouseY > 360 - 30 && mouseY < 360 + 30) {
       gameMode = 3;
+      tempMasterList = JSON.parse(JSON.stringify(masterList));
+      createRandomList(false);
     }
   } else if (gameMode == 1) {
     if (mouseX < sloup && momentalniAutor > 0) {
@@ -204,6 +230,7 @@ function mousePressed() {
     if (mouseX > width/2-150 && mouseX < width/2 + 150 && mouseY > b4.y - 30 && mouseY < b4.y + 30) {
       gameMode = 0;
       typKarticky = null;
+      kartickaFlipped = false;
     }
     if (typKarticky == null) {
       if (mouseX > width/2-150 && mouseX < width/2 + 150 && mouseY > b5.y - 30 && mouseY < b5.y + 30) {
@@ -221,6 +248,22 @@ function mousePressed() {
     } else {
       if (mouseX > width/2 - (width/3)/2 && mouseY > height/2 - mezery*11 && mouseX < width/2 + (width/3)/2 && mouseY < height/2 - mezery) {
         kartickaFlipped = !kartickaFlipped;
+      }
+      if(mouseX > sloup && mouseX < width/2 - width/6 && mouseY > 200 && mouseY < height/2) {
+        if (currentFlashcard > 0) {
+          currentFlashcard--;
+        } else {
+          currentFlashcard = sadaAutoru.length - 1;
+        }
+        kartickaFlipped = false;
+      }
+      if(mouseX < width - sloup && mouseX > width/2 + width/6 && mouseY > 200 && mouseY < height/2) {
+        if (currentFlashcard < sadaAutoru.length - 1) {
+          currentFlashcard++;
+        } else {
+          currentFlashcard = 0;
+        }
+        kartickaFlipped = false;
       }
     }
   }
@@ -330,13 +373,12 @@ function displayProgress() {
   rect(sloup + mezery, mezery, width - sloup - mezery, mezery*2);
   fill(206, 66, 87);
   rectMode(CORNER);
-  rect(sloup + mezery, mezery, (width - sloup - mezery)*(globallyCorrect/masterList.autori.length), mezery);
-  fill(0);
+  rect(sloup + mezery, mezery, map((globallyCorrect/masterList.autori.length), 0, 1, 0, width - sloup*2 - mezery*2, true), mezery);
 
+  fill(0);
 }
 
 function displayAutor(num) {
-  //createP(masterList.autori[num].Zivotopis);
   fill(0);
   textAlign(CENTER);
   textFont('Arial');
@@ -373,12 +415,10 @@ function displayAutor(num) {
   }
 }
 
-function randomList() {
-  tempMasterList2 = shuffle(JSON.parse(JSON.stringify(masterList)));
-}
-
-function createGuessGrid() {
-  for(i = 0; i < 5; i++) {
+function createRandomList(listConstrained) {
+  if (listConstrained) {var max = 5;}
+  else {var max = masterList.autori.length}
+  for(i = 0; i < max; i++) {
     var randomNum = floor(random(tempMasterList.autori.length));
     if (tempMasterList.autori.length > 1) {
       sadaAutoru[i] = tempMasterList.autori[randomNum];
@@ -391,6 +431,10 @@ function createGuessGrid() {
   for (i = 0; i < sadaAutoru2.length; i++) {
     sadaDel[i] = sadaAutoru2[i].Dila[floor(random(sadaAutoru2[i].Dila.length))].NazevDila;
   }
+}
+
+function keyPressed() {
+  globallyCorrect++;
 }
 
 function shuffleArray(a) {
