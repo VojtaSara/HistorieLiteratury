@@ -1,21 +1,6 @@
 {
   "autori": [
     {
-      "Jmeno":"Karel Čapek",
-      "Narodnost":"Česko",
-      "Narozeni":"9. 1. 1890",
-      "Umrti":"25. 12. 1938",
-      "Styl":"Pragmatismus, expresionismus",
-      "Povolani":"Novinář, spisovatel, dramatik, filosof, fotograf, překladatel",
-      "Zanry":"Povídka, román, divadelní hra, cestopisy, dětské knihy, překlady",
-      "Zivotopis":"Významný český autor 20. století, obrovský rozsah tvorby, člen \"pátečníků\" - kulturně politické smetánky",
-      "Dila": [
-        { "NazevDila":"Krakatit", "RokVydani":"1922" ,"PopisDila":"Román o objevu zničující trhaviny, filozofie lidského rozhodování" } ,
-        { "NazevDila":"R.U.R.", "RokVydani":"1939" ,"PopisDila":"Divadelní hra, varování před zneužitím techniky, poprvé slovo robot" },
-        { "NazevDila":"Válka s Mloky", "RokVydani":"1936" ,"PopisDila":"Antiutopický román o dopadech nezodpovědného chování společnosti" } 
-      ]
-    },
-    {
       "Jmeno":"Josef Dobrovský",
       "Narodnost":"Rakousko - Uhersko",
       "Narozeni":"1753",
@@ -120,9 +105,9 @@
       "Narozeni":"1713",
       "Umrti":"1784",
       "Styl":"Osvícenství",
-      "Povolani":"Encyklopedista, ",
+      "Povolani":"Encyklopedista",
       "Zanry":"Encyklopedie, román",
-      "Zivotopis":"POTŘEBA DOPLNIT",
+      "Zivotopis":"Vedoucí skupiny francouzských pokrokových vědců a filozofů",
       "Dila": [
         { "NazevDila":"Jeptiška", "RokVydani":"1796" ,"PopisDila":"Satira anglického románu, kritika církve, společenská nespravedlnost" },
         { "NazevDila":"Jakub fatalista a jeho pán", "RokVydani":"1780" ,"PopisDila":"Filosofický spor, formou dialogů, protiverze jeptišky" },
@@ -158,14 +143,14 @@
         ]
       },
       {
-       "Jmeno":"Choderlose de Laclose",
+       "Jmeno":"Choderlose de Laclos",
        "Narodnost":"Francie",
        "Narozeni":"1741",
        "Umrti":"1803",
        "Styl":"Libertinismus",
-       "Povolani":"POTŘEBA DOPLNIT",
-       "Zanry":"POTŘEBA DOPLNIT",
-       "Zivotopis":"POTŘEBA DOPLNIT",
+       "Povolani":"Spisovatel, vynálezce, romanopisec",
+       "Zanry":"Román v dopisech",
+       "Zivotopis":"Procestoval mnoho zemí jako důstojník - inspirace pro dílo",
        "Dila": [
          { "NazevDila":"Nebezpečné známosti", "RokVydani":"1783" ,"PopisDila":"Román v dopisech, Miloš Forman: Valmont, 1989" }
           ]
@@ -250,7 +235,7 @@
        "Styl":"Preromantismus",
        "Povolani":"spisovatel, politik, právník",
        "Zanry":"Drama, poezie, romány",
-       "Zivotopis":"POTŘEBA DOPLNIT",
+       "Zivotopis":"V čele hnutí Sturm und Drang, hodně cestoval",
        "Dila": [
          { "NazevDila":"Faust", "RokVydani":"1808, 1832" ,"PopisDila":"Dvoudílná veršovaná tragédie, z pověsti o doktoru Faustovi - silně filozofický podtext" },
          { "NazevDila":"Utrpení mladého Werthera", "RokVydani":"1774" ,"PopisDila":"Román v dopisech, deníková forma, citové problémy řeší sebevraždou" }
@@ -334,7 +319,7 @@
        "Zanry":"Lyrické básně",
        "Zivotopis":"Jeden z jezerních básníků",
        "Dila": [
-         { "NazevDila":"nic", "RokVydani":"nic" ,"PopisDila":"nic" }
+         { "NazevDila":"Podzimu", "RokVydani":"1820" ,"PopisDila":"Báseň napsaná sedmnáct měsíců před smrtí autora" }
           ]
        },
 {
@@ -389,11 +374,9 @@
        "Zanry":"Román, poezie, činohra, pamflet",
        "Zivotopis":"Žil za divokých politických zvratů ve Francii - Napoleon etc.",
        "Dila": [
-         { "NazevDila":"Legenda věků", "RokVydani":"1859,1877,1883" ,"PopisDila":"Třídílný básnický cyklus, cesta lidstva za pokrokem a humanitou" },
+         { "NazevDila":"Legenda věků", "RokVydani":"1877" ,"PopisDila":"Třídílný básnický cyklus, cesta lidstva za pokrokem a humanitou" },
          { "NazevDila":"Chrám Matky Boží v Pařízi", "RokVydani":"1831" ,"PopisDila":"Historický román, hrbáč Quasimodo se zamiluje do cikánky Esmeraldy a když je popravena objímá ji v hrobě" },
          { "NazevDila":"Ubožáci nebo Bídníci", "RokVydani":"1862" ,"PopisDila":"Společenský román, pozdní romantismus ovlivněn realismem, literární typ Jean Valjean " }
-
-
           ]
        },
 {
@@ -406,59 +389,60 @@
        "Zanry":"Drama, básně, povídky",
        "Zivotopis":"Úředník, který ve volném čase psal",
        "Dila": [
-         { "NazevDila":"Zpověď dítěte svého věku", "RokVydani":"POTŘEBADOPLNIT" ,"PopisDila":"Rom" }
+         { "NazevDila":"Zpověď dítěte svého věku", "RokVydani":"1836" ,"PopisDila":"Rom" }
           ]
        },
 {
        "Jmeno":"Ivan Andrejevič Krylov",
-       "Narodnost":"POTŘEBADOPLNIT", 
-       "Narozeni":"POTŘEBADOPLNIT",
-       "Umrti":"POTŘEBADOPLNIT",
-       "Styl":"POTŘEBADOPLNIT",
-       "Povolani":"POTŘEBADOPLNIT",
-       "Zanry":"POTŘEBADOPLNIT",
-       "Zivotopis":"POTŘEBADOPLNIT",
+       "Narodnost":"Rusko", 
+       "Narozeni":"1769",
+       "Umrti":"1844",
+       "Styl":"Romantismus",
+       "Povolani":"Bajkař, dramatik, satirik",
+       "Zanry":"Bajky, satira, komedie",
+       "Zivotopis":"Nejvýznamnější pro své bajky",
        "Dila": [
-         { "NazevDila":"POTŘEBADOPLNIT", "RokVydani":"POTŘEBADOPLNIT" ,"PopisDila":"POTŘEBADOPLNIT" }
+         { "NazevDila":"Bajky (neoficiální název)", "RokVydani":"1836" ,"PopisDila":"Navazuje na tradici Ezopa a J. Fontaina" }
           ]
        },
 {
        "Jmeno":"Alexandr Sergejevič Puškin",
        "Narodnost":"Rusko",
-       "Narozeni":"POTŘEBADOPLNIT",
-       "Umrti":"POTŘEBADOPLNIT",
-       "Styl":"POTŘEBADOPLNIT",
-       "Povolani":"POTŘEBADOPLNIT",
-       "Zanry":"POTŘEBADOPLNIT",
-       "Zivotopis":"POTŘEBADOPLNIT",
+       "Narozeni":"1799",
+       "Umrti":"1837",
+       "Styl":"Romantismus",
+       "Povolani":"Básník, prozaik, dramatik",
+       "Zanry":"Básně, romány, dramata",
+       "Zivotopis":"Pro své svobodomyslné verše ve vyhnanství, umírá v duelu, píše poémy",
        "Dila": [
-         { "NazevDila":"POTŘEBADOPLNIT", "RokVydani":"POTŘEBADOPLNIT" ,"PopisDila":"POTŘEBADOPLNIT" }
+         { "NazevDila":"Evžen Oněgin", "RokVydani":"1823" ,"PopisDila":"Veršovaný román reflektující společnost - na pomezí s realismem, zbytečný člověk" }
           ]
        },
 {
        "Jmeno":"Michail J. Lermontov",
        "Narodnost":"Rusko",
-       "Narozeni":"POTŘEBADOPLNIT",
-       "Umrti":"POTŘEBADOPLNIT",
-       "Styl":"POTŘEBADOPLNIT",
-       "Povolani":"POTŘEBADOPLNIT",
-       "Zanry":"POTŘEBADOPLNIT",
-       "Zivotopis":"POTŘEBADOPLNIT",
+       "Narozeni":"1814",
+       "Umrti":"1841",
+       "Styl":"Romantismus",
+       "Povolani":"Básník, prozaik, dramatik",
+       "Zanry":"Básně, psychologický román, poémy",
+       "Zivotopis":"Puškinův následovatel, také umírá v souboji",
        "Dila": [
-         { "NazevDila":"POTŘEBADOPLNIT", "RokVydani":"POTŘEBADOPLNIT" ,"PopisDila":"POTŘEBADOPLNIT" }
+         { "NazevDila":"Hrdina naší doby", "RokVydani":"1840" ,"PopisDila":"První psychologický román ruské literatury, o zbytečném člověku Pečorinovi" }
           ]
        },
 {
        "Jmeno":"Nikolaj Vasiljevič Gogol",
        "Narodnost":"Rusko",
-       "Narozeni":"POTŘEBADOPLNIT",
-       "Umrti":"POTŘEBADOPLNIT",
+       "Narozeni":"1809",
+       "Umrti":"1852",
        "Styl":"Pomezí romantismu a realismu",
-       "Povolani":"POTŘEBADOPLNIT",
-       "Zanry":"POTŘEBADOPLNIT",
-       "Zivotopis":"POTŘEBADOPLNIT",
+       "Povolani":"Prozaik a dramatik",
+       "Zanry":"Povídka, komedie, román",
+       "Zivotopis":"Kritika společnosti - prvek nastupujícího realismu",
        "Dila": [
-         { "NazevDila":"POTŘEBADOPLNIT", "RokVydani":"POTŘEBADOPLNIT" ,"PopisDila":"POTŘEBADOPLNIT" }
+         { "NazevDila":"Revizor", "RokVydani":"1836" ,"PopisDila":"Satirická komedie kritizující chování lidí v okresním městě" },
+         { "NazevDila":"Mrtvé duše", "RokVydani":"1842" ,"PopisDila":"Satirický román charakterizující typy statkářů" }
           ]
        },
 {
@@ -483,7 +467,7 @@
        "Styl":"Národní obrození",
        "Povolani":"Profesor, historik, jazykovědec",
        "Zanry":"Historicky naučné, jazykověda",
-       "Zivotopis":"První profesor českého jazyka a literatury na pražské universitě, pokračovatel Dobnera, věřil v českou kulturu",
+       "Zivotopis":"První profesor českého jazyka a literatury na pražské univerzitě, pokračovatel Dobnera, věřil v českou kulturu",
        "Dila": [
          { "NazevDila":"Nová kronika česká", "RokVydani":"1791" ,"PopisDila":"Kronika, která měla nahradit Hájkovu, první pokus o vědecky historické dílo ČNO" }
           ]
@@ -491,14 +475,14 @@
 {
        "Jmeno":"Gelasius Dobner",
        "Narodnost":"Česko",
-       "Narozeni":"1719",
+       "Narozeni":"1719", 
        "Umrti":"1790",
        "Styl":"Národní obrození",
        "Povolani":"Historik, národní buditel",
-       "Zanry":"POTŘEBADOPLNIT",
-       "Zivotopis":"POTŘEBADOPLNIT",
+       "Zanry":"Kritický komentář",
+       "Zivotopis":"Kritik Kroniky české Václava Hájka z Libočan, zkoumání historické spolehlivosti",
        "Dila": [
-         { "NazevDila":"POTŘEBADOPLNIT", "RokVydani":"POTŘEBADOPLNIT" ,"PopisDila":"POTŘEBADOPLNIT" }
+         { "NazevDila":"Kritický komentář k Hájkově kronice (není ofic. název)", "RokVydani":"1764" ,"PopisDila":"Tímto dílem položil základy moderní české historiografie" }
           ]
        },
 {
@@ -606,8 +590,450 @@
        "Zanry":"Poezie, autobiografie, próza",
        "Zivotopis":"V ochotnickém divadle potkal osudovou lásku Eleonoru Šomkovou, rád cestuje, umírá na nemoc den před svatbou, Litoměřice - Radobýl",
        "Dila": [
-         { "NazevDila":"Máj", "RokVydani":"1836" ,"PopisDila":"Stěžejní dílo české poezie, epická poezie, brilantní kompozice, téma otcovraždy a trestu, zprvu negat. ohlasy" }
+         { "NazevDila":"Máj", "RokVydani":"1836" ,"PopisDila":"Stěžejní dílo české poezie, epická poezie, brilantní kompozice, téma otcovraždy a trestu, zprvu negat. ohlasy" },
+         { "NazevDila":"Obrazy ze života mého", "RokVydani":"1834" ,"PopisDila":"Večer na Bezdězu - lyrizovaná próza / cestopis, Marinka - Romantická povídka " }
+          ]
+       },
+      {
+       "Jmeno":"Božena Němcová",
+       "Narodnost":"Česko",
+       "Narozeni":"1820",
+       "Umrti":"1862",
+       "Styl":"Národní obrození, romantismus", 
+       "Povolani":"Spisovatelka",
+       "Zanry":"Pohádka, povídka, črta, venkovská próza",
+       "Zivotopis":"Možná dcerou kněžny Zaháňské",
+       "Dila": [
+         { "NazevDila":"Babička", "RokVydani":"1855" ,"PopisDila":"Idyla/novela/soubor črt/román - unikátní dílo s archaickými motivy, plné symbolů, archetypů" }
+          ]
+       },
+{
+       "Jmeno":"Dante Alighieri",
+       "Narodnost":"Itálie",
+       "Narozeni":"1265",
+       "Umrti":"1321",
+       "Styl":"Renesance",
+       "Povolani":"Humanista, vědec",
+       "Zanry":"Traktát, komedie, milostná poezie",
+       "Zivotopis":"Z Florencie, založil spisovnou italštinu (toskánský dialekt), vystupoval proti vládci i papeži ",
+       "Dila": [
+         { "NazevDila":"Božská komedie", "RokVydani":"1307-1321" ,"PopisDila":"Alegorická básnická skladba, pojmenovaná G. Boccaciem, číslo 3, průvodci Vergilius, Beatrice, sv. Bernard" },
+         { "NazevDila":"Nový život", "RokVydani":"1292" ,"PopisDila":"Milostná poezie věnovaná Beatrici" },
+         { "NazevDila":"O lidové mluvě", "RokVydani":"1304" ,"PopisDila":"Lingvistický traktát" }
+          ]
+       },
+{
+       "Jmeno":"Giovanni Boccaccio",
+       "Narodnost":"Itálie",
+       "Narozeni":"1313",
+       "Umrti":"1375",
+       "Styl":"Renesance",
+       "Povolani":"Kupec, právník, ",
+       "Zanry":"Lyrické básně, erotický román, novely",
+       "Zivotopis":"Životopisec Dantův, vykladač Komedie",
+       "Dila": [
+         { "NazevDila":"Dekameron", "RokVydani":"1363" ,"PopisDila":"Soubor rámcových povídek, sto novel, Lidská komedie, satirické" },
+         { "NazevDila":"Vita di Dante", "RokVydani":"1450" ,"PopisDila":"Komentátor Dantova života a Komedie" }
+          ]
+       },
+{
+       "Jmeno":"Francesco Petrarca",
+       "Narodnost":"Itálie",
+       "Narozeni":"1304",
+       "Umrti":"1374",
+       "Styl":"Renesance",
+       "Povolani":"Diplomat",
+       "Zanry":"Milostná poezie, sonet",
+       "Zivotopis":"Duchovní otec humanismu, ad fontes k antice, navštívil Prahu, , ",
+       "Dila": [
+         { "NazevDila":"Zpěvník", "RokVydani":"1370" ,"PopisDila":"Petrarkovské, italské sonety (4,4,3,3) pro Lauru" }
+          ]
+       },
+{
+       "Jmeno":"Francois Villon",
+       "Narodnost":"Francie",
+       "Narozeni":"1429",
+       "Umrti":"1463",
+       "Styl":"Rnenesance",
+       "Povolani":"Básník, vězeň, nezaměstnaný",
+       "Zanry":"Francouzské, villonské balady",
+       "Zivotopis":"První prokletý básník, vedl bohémský život, hrozil mu trest smrti",
+       "Dila": [
+         { "NazevDila":"Odkaz", "RokVydani":"1456" ,"PopisDila":"Básnická sbírka, Malý testament, závěť věnovaná přátelům" },
+         { "NazevDila":"Závěť", "RokVydani":"1462" ,"PopisDila":"Básnická sbírka, Velký testament, parodie, komično, loučení se světem který miluje" }
+          ]
+       },
+{
+       "Jmeno":"Francois Rabelais",
+       "Narodnost":"Francie",
+       "Narozeni":"1494",
+       "Umrti":"1553",
+       "Styl":"Renesance",
+       "Povolani":"Mnich, lékař, prozaik, satirik, humanista",
+       "Zanry":"Satira, nadsázka, groteska",
+       "Zivotopis":"Vysmíval se církvi a odmítal memorování pravd",
+       "Dila": [
+         { "NazevDila":"Gargantua a Pentagruel", "RokVydani":"1562" ,"PopisDila":"Pětidílná epopej o rodině obrů, satira všech oblastí života" }
+          ]
+       },
+{
+       "Jmeno":"Miguel de Cervantes y Saavedra",
+       "Narodnost":"Španělsko",
+       "Narozeni":"1547",
+       "Umrti":"1616",
+       "Styl":"Renesance",
+       "Povolani":"Šlechtic, spisovatel, námořník",
+       "Zanry":"Poezie, román, novala, drama",
+       "Zivotopis":"Dobrodružný život",
+       "Dila": [
+         { "NazevDila":"Důmyslný rytíř don Quijote de la Mancha", "RokVydani":"1605" ,"PopisDila":"Dvoudílný rytířský román, 1. evropský román, satira, kniha lidového čtení, Píseň o Cidovi" }
+          ]
+       },
+{
+       "Jmeno":"Lope de Vega",
+       "Narodnost":"Španělso",
+       "Narozeni":"1562",
+       "Umrti":"1635",
+       "Styl":"Renesance",
+       "Povolani":"Dramatik",
+       "Zanry":"Divadelní hra",
+       "Zivotopis":"Tvořil v období zlatého věku, až 2000 her, komedie pláště a dýky, citový a morální konflikt",
+       "Dila": [
+         { "NazevDila":"Ovčí pramen", "RokVydani":"1619" ,"PopisDila":"Historická divadelní hra, španělské národní dějiny, proti feudalistům, svornost lidu" }
+          ]
+       },
+{
+       "Jmeno":"Geoffrey Chaucer",
+       "Narodnost":"Anglie",
+       "Narozeni":"1344",
+       "Umrti":"1400",
+       "Styl":"Renesance",
+       "Povolani":"Diplomat v Itálii",
+       "Zanry":"Povídky",
+       "Zivotopis":"Ve službě v Itálii se seznámil s tvorbou Danta, Bocaccia, a Petrarky",
+       "Dila": [
+         { "NazevDila":"Canterburské povídky", "RokVydani":"1400" ,"PopisDila":"Rámcové veršované povídky inspirované Dekameronem, putníci, nedokončeno" }
+          ]
+       },
+{
+       "Jmeno":"Christopher Marlowe",
+       "Narodnost":"Anglie",
+       "Narozeni":"1564",
+       "Umrti":"1593",
+       "Styl":"Renesance",
+       "Povolani":"Dramatik, tajný agent vlády",
+       "Zanry":"Divadelní hra",
+       "Zivotopis":"První užití Blankversu, za politické intriky zabit",
+       "Dila": [
+         { "NazevDila":"Doktor Faust", "RokVydani":"1584" ,"PopisDila":"Divadelní hra, touze po vědění obětuje Faust duši, inspirace Goetha" }
+          ]
+       },
+{
+       "Jmeno":"Thomas More",
+       "Narodnost":"Anglie",
+       "Narozeni":"1478",
+       "Umrti":"1535",
+       "Styl":"Humanismus",
+       "Povolani":"Humanista",
+       "Zanry":"Spisy",
+       "Zivotopis":"Kritizuje svou dobu, žádá ve společnosti svobodu a rovnost",
+       "Dila": [
+         { "NazevDila":"Utopie", "RokVydani":"1516" ,"PopisDila":"Spis, lidé jsou si rovni, jejich hodnota je v pomoci kolektivu, kritika doby" }
+          ]
+       },
+{
+       "Jmeno":"William Shakespeare",
+       "Narodnost":"Anglie",
+       "Narozeni":"1564",
+       "Umrti":"1616",
+       "Styl":"Humanismus",
+       "Povolani":"Dramatik, herec",
+       "Zanry":"Historické hry, tragédie",
+       "Zivotopis":"Píše blankversem, inspirován Boccaciem, Chaucerem, později svým osudem",
+       "Dila": [
+         { "NazevDila":"Romeo a Julie", "RokVydani":"1595" ,"PopisDila":"Tragédie, příběh dvou veronských milenců - Kapuleti x Montekové, všichni nakonec zemřou" },
+       { "NazevDila":"Sen noci svatojánské", "RokVydani":"1595" ,"PopisDila":"Komedie" },
+       { "NazevDila":"Kupec benátský", "RokVydani":"1596" ,"PopisDila":"Komedie" },
+       { "NazevDila":"Hamlet, kralevic dánský", "RokVydani":"1600" ,"PopisDila":"Tragédie - mladý princ se mstí a přemitá nad smyslem života (špatně to dopadne)" },
+       { "NazevDila":"Zkrocení zlé ženy", "RokVydani":"1593" ,"PopisDila":"Komedie" },
+       { "NazevDila":"Othello", "RokVydani":"1603" ,"PopisDila":"Tragédie, téma lásky, nedůvěry a žárlivosti" },
+       { "NazevDila":"Macbeth", "RokVydani":"1606" ,"PopisDila":"Tragédie, obraz lidské chamtivosti a touhy po moci, vojevůdce Macbeth" }
+          ]
+       },
+{
+       "Jmeno":"Jan z Rabštejna",
+       "Narodnost":"Česko",
+       "Narozeni":"1437",
+       "Umrti":"1473",
+       "Styl":"Humanismus",
+       "Povolani":"Diplomat Jiřího z Poděbrad",
+       "Zanry":"Rozhovor",
+       "Zivotopis":"Diplomat Jiřího z Poděbrad",
+       "Dila": [
+         { "NazevDila":"Dialogus", "RokVydani":"1469" ,"PopisDila":"Rozhovor šlechticů, propagace svobody slova" }
+          ]
+       },
+{
+       "Jmeno":"Hynek z Poděbrad",
+       "Narodnost":"Česko",
+       "Narozeni":"1452",
+       "Umrti":"1492",
+       "Styl":"Humanismus",
+       "Povolani":"Syn Jiřího z Poděbrad",
+       "Zanry":"Básnická skladba",
+       "Zivotopis":"Překlad části Dekameronu",
+       "Dila": [
+         { "NazevDila":"Májový sen", "RokVydani":"1480" ,"PopisDila":"Básnická skladba, milostný příběh, který je ve skutečnosti pouze sen" }
+          ]
+       },
+{
+       "Jmeno":"Václav Hájek z Libočan",
+       "Narodnost":"Česko",
+       "Narozeni":"1516",
+       "Umrti":"1553",
+       "Styl":"Doba Blahoslavova, humanismus",
+       "Povolani":"Historik, spisovatel, kněz",
+       "Zanry":"Kronika",
+       "Zivotopis":"Čerpal z Kosmasovy kroniky, historii trochu dobarvoval",
+       "Dila": [
+         { "NazevDila":"Kronika česká", "RokVydani":"1539" ,"PopisDila":"Kronika od příchodu Čechů do Čech až do r. 1526 - Poutavé, ale nepříliš historicky přesné" }
+          ]
+       },
+{
+       "Jmeno":"Jan Blahoslav",
+       "Narodnost":"Česko",
+       "Narozeni":"1523",
+       "Umrti":"1571",
+       "Styl":"Doba Blahoslavova, humanismus",
+       "Povolani":"Biskup Jednoty bratrské, dialektolog",
+       "Zanry":"Odborné",
+       "Zivotopis":"Všestranný český vzdělanec, zabýval se literaturou, hudbou, historií, jazykovědou, řečnictvím",
+       "Dila": [
+         { "NazevDila":"Gramatika česká", "RokVydani":"1571" ,"PopisDila":"Komentář ke staršímu dílu, první česká mluvnice, rozlišení archaismů a dialektů od spisovného jazyka" },
+         { "NazevDila":"Musica", "RokVydani":"1558" ,"PopisDila":"Odborná literatura zabývající se hudební teorií, teorií verše a kompozice duchovní písně, prozodická pravidla" },
+         { "NazevDila":"Filipika proti Misomusům", "RokVydani":"1567" ,"PopisDila":"Řeč kritizující nepřátele vzdělání, názor, že křesťanovi vzdělání prospívá" },
+         { "NazevDila":"Bible kralická", "RokVydani":"1594" ,"PopisDila":"Šestidílná bible, vychází z původní aramejštiny, hebrejštiny a řečtiny, určuje spisovnou češtinu" }
+
+          ]
+       },
+{
+       "Jmeno":"Daniel Adam z Veleslavína",
+       "Narodnost":"Česko",
+       "Narozeni":"1546",
+       "Umrti":"1599",
+       "Styl":"Humanismus",
+       "Povolani":"Profesor historie, vydavatel",
+       "Zanry":"Historická díla",
+       "Zivotopis":"Vydával díla, spolupracoval na překladech, velmi dbal na jazykovou stránku",
+       "Dila": [
+         { "NazevDila":"Kalendář historický", "RokVydani":"1578" ,"PopisDila":"Historické dílo - ke každému dni významné události z historie" }
+          ]
+       },
+{
+       "Jmeno":"Jan Amos Komenský",
+       "Narodnost":"Česko",
+       "Narozeni":"1592",
+       "Umrti":"1670",
+       "Styl":"Baroko",
+       "Povolani":"Spisovatel, jazykovědec, teolog, pedagog",
+       "Zanry":"Odborné spisy, učebnice, teologická díla",
+       "Zivotopis":"Učitel národů, vytvořil podklad pro reformu školství, Schola Iudus, názornost, soustavnost, aktivnost, trvalost, přiměřenost",
+       "Dila": [
+         { "NazevDila":"Labyrint světa a ráj srdce", "RokVydani":"1623" ,"PopisDila":"Alegorická skladba zobrazující pouť světem pomocí fiktivního města" }
+          ]
+       },
+{
+       "Jmeno":"Homér",
+       "Narodnost":"Řecko",
+       "Narozeni":"-800",
+       "Umrti":"-750",
+       "Styl":"Klasická antika",
+       "Povolani":"Básník",
+       "Zanry":"Epické skladby",
+       "Zivotopis":"Nic se o něm neví",
+       "Dila": [
+         { "NazevDila":"Illias", "RokVydani":"-750" ,"PopisDila":"Hrdinský epos, posledních 51 dnů Trojské války" },
+         { "NazevDila":"Odyssea", "RokVydani":"-750" ,"PopisDila":"Dobrodružný epos, 41 dní z desetiletého bloudění Odyssea na cestě z Trojské války" }
+          ]
+       },
+{
+       "Jmeno":"Publius Ovidius Naso",
+       "Narodnost":"Itálie",
+       "Narozeni":"-43",
+       "Umrti":"18",
+       "Styl":"Klasická antika - Řím",
+       "Povolani":"Básník",
+       "Zanry":"Poezie, elegie, báje",
+       "Zivotopis":"Největší římský básník, poeta natur",
+       "Dila": [
+         { "NazevDila":"Proměny", "RokVydani":"8" ,"PopisDila":"250 bájí, motiv proměny člověka v nesmrtelnou bytost, zvíře, rostlinu... " },
+         { "NazevDila":"Umění milovat", "RokVydani":"8" ,"PopisDila":"Didaktická poezie, parodie, rady jak získat a udržet lásku" },
+         { "NazevDila":"Žalozpěvy", "RokVydani":"8" ,"PopisDila":"Elegie z rumunského vyhnanství" }
+          ]
+       },
+{
+       "Jmeno":"Aristoteles",
+       "Narodnost":"Řecko",
+       "Narozeni":"-384",
+       "Umrti":"-322",
+       "Styl":"Klasická antika",
+       "Povolani":"Zakladatel logiky, vědec",
+       "Zanry":"Spisy",
+       "Zivotopis":"Založil školu v Aténách, vychoval Alexandra Makedonského",
+       "Dila": [
+         { "NazevDila":"Rétorika", "RokVydani":"-300" ,"PopisDila":"Umění řečnické" },
+         { "NazevDila":"Poetika", "RokVydani":"-300" ,"PopisDila":"Umění básnické" }
+          ]
+       },
+{
+       "Jmeno":"Publius Vergilius Maro",
+       "Narodnost":"Itálie",
+       "Narozeni":"-70",
+       "Umrti":"-19",
+       "Styl":"Klasická antika - Řím",
+       "Povolani":"Spisovatel",
+       "Zanry":"Epos",
+       "Zivotopis":"Nebyl spokojen s Aeneis - chtěl ho spálit, poeta doctus",
+       "Dila": [
+         { "NazevDila":"Aeneis", "RokVydani":"10" ,"PopisDila":"Epos, inspirace Homérovými eposy" }
+          ]
+       },
+{
+       "Jmeno":"Kosmas",
+       "Narodnost":"Česko",
+       "Narozeni":"1045",
+       "Umrti":"1125",
+       "Styl":"Středověk",
+       "Povolani":"Kněz",
+       "Zanry":"Kronika",
+       "Zivotopis":"Manželka Božetěcha",
+       "Dila": [
+         { "NazevDila":"Kronika česká", "RokVydani":"1120" ,"PopisDila":"První latinsky psaná česká kronika, občasná poezie" }
+          ]
+       },
+{
+       "Jmeno":"Aischilos",
+       "Narodnost":"Řecko",
+       "Narozeni":"-525",
+       "Umrti":"-456",
+       "Styl":"Klasická antika",
+       "Povolani":"Dramatik",
+       "Zanry":"Tragédie",
+       "Zivotopis":"Zavedl Deus ex machina, dekorace, masky, kostýmy, uvedl druhého herce, vina-trest-smír, konflikt bohů a lidstva",
+       "Dila": [
+         { "NazevDila":"Oresteia", "RokVydani":"-500" ,"PopisDila":"Trilogie, tragédie, o prokletí rodu Tantala" }
+          ]
+       },
+{
+       "Jmeno":"Sofokles",
+       "Narodnost":"Řecko",
+       "Narozeni":"-496",
+       "Umrti":"-406",
+       "Styl":"Klasická antika",
+       "Povolani":"Dramatik",
+       "Zanry":"Tragédie",
+       "Zivotopis":"Uvedl třetího herce, spjatý s Thébami",
+       "Dila": [
+         { "NazevDila":"Elektra", "RokVydani":"-450" ,"PopisDila":"Tragédie navazující na Oresteiu" },
+         { "NazevDila":"Král Oidipus", "RokVydani":"-450" ,"PopisDila":"Tragédie, Oidipus dle věštby zabije otce, zachrání Théby před sfingou a za to se stane králem, vezme si matku" },
+         { "NazevDila":"Antigona", "RokVydani":"-450" ,"PopisDila":"Tragédie, dcera Oidipa bojuje za přirozené věčné mravní zásady, které jsou nad zákony" }
+          ]
+       },
+{
+       "Jmeno":"Euripides",
+       "Narodnost":"Řecko",
+       "Narozeni":"-480",
+       "Umrti":"-406",
+       "Styl":"Klasická antika",
+       "Povolani":"Dramatik",
+       "Zanry":"Tragédie",
+       "Zivotopis":"Ovlivněn racionalismem a individualismem, hry o ženách, konkrétních postavách, pokus o psychologické drama, ",
+       "Dila": [
+         { "NazevDila":"Médeia", "RokVydani":"-440" ,"PopisDila":"Tragédie, kouzelnice kvůli lásce zrazuje vlast i rodinu, rozzuřena podvodem zabije Iasonovu novou rodinu" },
+         { "NazevDila":"Elektra", "RokVydani":"-440" ,"PopisDila":"Tragédie, tentokrát je Elektra labilní" }
+          ]
+       },
+{
+       "Jmeno":"Aristofanes",
+       "Narodnost":"Řecko",
+       "Narozeni":"-446",
+       "Umrti":"-388",
+       "Styl":"Klasická antika",
+       "Povolani":"Dramatik", 
+       "Zanry":"Komedie",
+       "Zivotopis":"Poukazoval na společenské problémy",
+       "Dila": [
+         { "NazevDila":"Antické komedie (obecně, není název)", "RokVydani":"-400" ,"PopisDila":"Kritika společnosti, úpadek athénské demokracie" }
+          ]
+       },
+{
+       "Jmeno":"Platon",
+       "Narodnost":"Řecko",
+       "Narozeni":"-427",
+       "Umrti":"-348",
+       "Styl":"Klasická antika",
+       "Povolani":"Myslitel, filozof",
+       "Zanry":"Dialog Sokrata, spis",
+       "Zivotopis":"Žák Sokrata, svět idejí - dokonalý, neměnný, nezávislý na našem světě",
+       "Dila": [
+         { "NazevDila":"Faidros", "RokVydani":"-400" ,"PopisDila":"Sokratovský dialog o kráse a idejích" },
+         { "NazevDila":"Symposion", "RokVydani":"-400" ,"PopisDila":"Sokratovský dialog o lásce" },
+         { "NazevDila":"Ústava", "RokVydani":"-400" ,"PopisDila":"Politický spis, kritika dosavadní ústavy, navrhuje oligarchii filozofů" }
+
+          ]
+       },
+{
+       "Jmeno":"Bedřich Bridel", 
+       "Narodnost":"Česko",
+       "Narozeni":"1619",
+       "Umrti":"1680",
+       "Styl":"Baroko",
+       "Povolani":"Jezuita, překladatel, profesor rétoriky, básník, prozaik",
+       "Zanry":"Báseň, proza",
+       "Zivotopis":"Jezuitský misionář",
+       "Dila": [
+         { "NazevDila":"Co Bůh? Člověk?", "RokVydani":"1658" ,"PopisDila":"Mystická skladba, úvaha nad boží existencí a pomíjivostí života" }
+          ]
+       },
+{
+       "Jmeno":"Adam Michna z Otranovic",
+       "Narodnost":"Česko",
+       "Narozeni":"1600",
+       "Umrti":"1676",
+       "Styl":"Baroko",
+       "Povolani":"Básník, skladatel, varhaník a učitel hudby",
+       "Zanry":"Kancionál, miostné písně, koledy, ukolébavky",
+       "Zivotopis":"Viz povolání",
+       "Dila": [
+         { "NazevDila":"Česká mariánská muzika, radostná i žalostná", "RokVydani":"1647" ,"PopisDila":"Kancionál, písničky Hajej, můj andílku, Pod našima okny, Chtíc aby spal" },
+         { "NazevDila":"Loutna česká", "RokVydani":"1653" ,"PopisDila":"Kancionál" }
+          ]
+       },
+{
+       "Jmeno":"Sapfó",
+       "Narodnost":"Řecko",
+       "Narozeni":"-625",
+       "Umrti":"-569",
+       "Styl":"Klasická antika",
+       "Povolani":"básnířka, spisovatelka a hudební skladatelka",
+       "Zanry":"Sólová lyrika",
+       "Zivotopis":"Působila na ostrově Lesbos, vedla zde dívčí internátní školu",
+       "Dila": [
+         { "NazevDila":"Písně z Lesbu", "RokVydani":"-580" ,"PopisDila":"Orální poezie, zachovaly se pouze zlomky" }
+          ]
+       },
+{
+       "Jmeno":"Ezop",
+       "Narodnost":"Řecko",
+       "Narozeni":"-620",
+       "Umrti":"-564",
+       "Styl":"Klasická antika",
+       "Povolani":"Bajkář, spisovatel, mytograf",
+       "Zanry":"Bajky",
+       "Zivotopis":"O jeho životě nic nevíme, propuštěný otrok",
+       "Dila": [
+         { "NazevDila":"Ezopovy bajky (nemá oficiální název)", "RokVydani":"-570" ,"PopisDila":"První sbírka bajek - např. O lvu a o myši, s ponaučením" }
           ]
        }
-]
+   ]
 }
