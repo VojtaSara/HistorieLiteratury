@@ -580,20 +580,6 @@
          { "NazevDila":"Strakonický dudák", "RokVydani":"1847" ,"PopisDila":"Divadelní hra, směšně špatný pokus o umění urážející inteligenci diváka" } 
           ]
        },
-     {
-       "Jmeno":"Karel Hynek Mácha",
-       "Narodnost":"Česko",
-       "Narozeni":"1810",
-       "Umrti":"1836",
-       "Styl":"Romantismus",
-       "Povolani":"Ochotný divadelník, básník",
-       "Zanry":"Poezie, autobiografie, próza",
-       "Zivotopis":"V ochotnickém divadle potkal osudovou lásku Eleonoru Šomkovou, rád cestuje, umírá na nemoc den před svatbou, Litoměřice - Radobýl",
-       "Dila": [
-         { "NazevDila":"Máj", "RokVydani":"1836" ,"PopisDila":"Stěžejní dílo české poezie, epická poezie, brilantní kompozice, téma otcovraždy a trestu, zprvu negat. ohlasy" },
-         { "NazevDila":"Obrazy ze života mého", "RokVydani":"1834" ,"PopisDila":"Večer na Bezdězu - lyrizovaná próza / cestopis, Marinka - Romantická povídka " }
-          ]
-       },
       {
        "Jmeno":"Božena Němcová",
        "Narodnost":"Česko",
