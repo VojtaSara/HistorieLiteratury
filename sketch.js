@@ -69,13 +69,18 @@ function draw() {
     textAlign(CENTER);
     textSize(70);
     fill(200,200,200);
-    text("Historie literatury",width/2+3,93)
+    text("Historie literatury",width/2+3,93);
     fill(0);
-    text("Historie literatury",width/2,90)
+    text("Historie literatury",width/2,90);
     image(taticek,width/2 - 400,height/2 -mouseY/10,800,800);
     b1.show();
     b2.show();
     b3.show();
+    textSize(20);
+    textAlign(RIGHT);
+    noStroke();
+    text("Vytvořili Vojta a Anička",width - sloup - 10, height - 20);
+    textAlign(CENTER);
   } else if (gameMode == 1) {
     displayAutor(momentalniAutor);
     b4.show();
