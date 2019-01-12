@@ -25,6 +25,10 @@ var typKarticky = null;
 var tempMasterList2 = [];
 var kartickaFlipped = false;
 var currentFlashcard = 0;
+var diloAutor = [];
+var diloAutor2 = [];
+var diloPopis = [];
+var diloPopis2 = [];
 
 function preload() {
   masterList = loadJSON("https://raw.githubusercontent.com/VojtaSara/HistorieLiteratury/master/seznam.json");
@@ -44,6 +48,12 @@ function setup() {
   b7 = new button(360,"Dílo / autor");
   b8 = new button(440,"Popis / dílo");
   masterList.autori.sort((a, b) => (a.Narozeni > b.Narozeni) ? 1 : -1);
+  for(i = 0; i < masterList.autori.length; i++) {
+    for(j = 0; j < masterList.autori[i].Dila.length; j++) {
+      diloAutor.push(masterList.autori[i].Jmeno + "*" + masterList.autori[i].Dila[j].NazevDila);
+      diloPopis.push(masterList.autori[i].Dila[j].RokVydani + "\n" + masterList.autori[i].Dila[j].PopisDila + "*" + masterList.autori[i].Dila[j].NazevDila);
+    }
+  }
 }
 
 function windowResized() {
@@ -179,12 +189,14 @@ function draw() {
         else {text(sadaAutoru[currentFlashcard].Styl, width/2, 320);}
       } else if(typKarticky == 3) {
         text("Dílo / autor", width/2, 120);
-        if (!kartickaFlipped) {text(sadaAutoru[currentFlashcard].Jmeno, width/2, 320);}
-        else {text(sadaAutoru[currentFlashcard].Narodnost, width/2, 320);}
+        textSize(22);
+        if (!kartickaFlipped) {text(diloAutor2[currentFlashcard].substring(diloAutor2[currentFlashcard].indexOf("*") + 1,diloAutor2[currentFlashcard].length), width/2, 320);}
+        else {text(diloAutor2[currentFlashcard].substring(0,diloAutor2[currentFlashcard].indexOf("*")), width/2, 320);}
       } else if(typKarticky == 4) {
         text("Popis / dílo", width/2, 120);
-        if (!kartickaFlipped) {text(sadaAutoru[currentFlashcard].Jmeno, width/2, 320);}
-        else {text(sadaAutoru[currentFlashcard].Narodnost, width/2, 320);}
+        textSize(12);
+        if (!kartickaFlipped) {text(diloPopis2[currentFlashcard].substring(0,diloPopis2[currentFlashcard].indexOf("*")), width/2, 320);}
+        else {textSize(22); text(diloPopis2[currentFlashcard].substring(diloPopis2[currentFlashcard].indexOf("*") + 1,diloPopis2[currentFlashcard].length), width/2, 320);}
       }
       strokeWeight(4);
       stroke(0);
@@ -228,6 +240,8 @@ function mousePressed() {
     if (mouseX > width/2-150 && mouseX < width/2 + 150 && mouseY > 360 - 30 && mouseY < 360 + 30) {
       gameMode = 3;
       tempMasterList = JSON.parse(JSON.stringify(masterList));
+      diloAutor2 = shuffleArray(diloAutor);
+      diloPopis2 = shuffleArray(diloPopis);
       createRandomList(false);
     }
   } else if (gameMode == 1) {
@@ -251,11 +265,6 @@ function mousePressed() {
        }
     }
   } else if (gameMode == 3) {
-    if (mouseX > width/2-150 && mouseX < width/2 + 150 && mouseY > b4.y - 30 && mouseY < b4.y + 30) {
-      gameMode = 0;
-      typKarticky = null;
-      kartickaFlipped = false;
-    }
     if (typKarticky == null) {
       if (mouseX > width/2-150 && mouseX < width/2 + 150 && mouseY > b5.y - 30 && mouseY < b5.y + 30) {
         typKarticky = 1;
@@ -268,6 +277,11 @@ function mousePressed() {
       }
       if (mouseX > width/2-150 && mouseX < width/2 + 150 && mouseY > b8.y - 30 && mouseY < b8.y + 30) {
         typKarticky = 4;
+      }
+      if (mouseX > width/2-150 && mouseX < width/2 + 150 && mouseY > b4.y - 30 && mouseY < b4.y + 30) {
+        gameMode = 0;
+        typKarticky = null;
+        kartickaFlipped = false;
       }
     } else {
       if (mouseX > width/2 - (width/3)/2 && mouseY > height/2 - mezery*11 && mouseX < width/2 + (width/3)/2 && mouseY < height/2 - mezery) {
@@ -287,6 +301,14 @@ function mousePressed() {
         } else {
           currentFlashcard = 0;
         }
+        kartickaFlipped = false;
+      }
+      if (mouseX > width/2-150 && mouseX < width/2 + 150 && mouseY > b4.y - 30 && mouseY < b4.y + 30) {
+        typKarticky = null;
+        tempMasterList = JSON.parse(JSON.stringify(masterList));
+        diloAutor2 = shuffleArray(diloAutor);
+        diloPopis2 = shuffleArray(diloPopis);
+        createRandomList(false);
         kartickaFlipped = false;
       }
     }
@@ -461,9 +483,17 @@ function keyPressed() {
   if (gameMode == 3 && typKarticky != null) {
     if (keyCode === LEFT_ARROW && currentFlashcard > 0) {
       currentFlashcard--;
+      kartickaFlipped = false;
     }
     if (keyCode === RIGHT_ARROW && currentFlashcard < sadaAutoru.length - 1) {
       currentFlashcard++;
+      kartickaFlipped = false;
+    }
+    if(keyCode === UP_ARROW) {
+      kartickaFlipped = !kartickaFlipped;
+    }
+    if(keyCode === DOWN_ARROW) {
+      kartickaFlipped = !kartickaFlipped;
     }
   }
 }
