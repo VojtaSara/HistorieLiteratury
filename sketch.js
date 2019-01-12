@@ -19,6 +19,7 @@ var globallyCorrect = 0;
 var immidiateWrong = 0;
 var hadaciBoxy = [];
 var progress;
+var guessGridEnded = false;
 // Flashcard gameMode
 var typKarticky = null;
 var tempMasterList2 = [];
@@ -31,9 +32,9 @@ function preload() {
 }
 
 function setup() {
-  createCanvas(windowWidth,windowHeight);
+  var cnv = createCanvas(windowWidth, windowHeight);
+  cnv.style('display', 'block');
   gameMode = 0;
-  displayAutor(0);
   b1 = new button(200,"Zobrazit přehled autorů");
   b2 = new button(280,"Přiřaď autory k dílům");
   b3 = new button(360,"Flashcards");
@@ -42,6 +43,7 @@ function setup() {
   b6 = new button(280,"Autor / etapa");
   b7 = new button(360,"Dílo / autor");
   b8 = new button(440,"Popis / dílo");
+  masterList.autori.sort((a, b) => (a.Narozeni > b.Narozeni) ? 1 : -1);
 }
 
 function windowResized() {
@@ -113,7 +115,7 @@ function draw() {
       immidiateScore = 0;
       if (globallyCorrect > masterList.autori.length-masterList.autori.length%5 - 1) {
         fill(0);
-        text("Konec!", width/2, height/2 - 100);
+        guessGridEnded = true;
       } else {
         createRandomList(true);
         hadaciBoxy = [];
@@ -126,10 +128,21 @@ function draw() {
       }
     }
     displayProgress();
+
     textAlign(CENTER);
     textSize(32);
     noStroke();
-    text("Skóre:\n" + (score + immidiateScore) + "\n z " + masterList.autori.length, width/2, height/2 - mezery*3);
+    if (!guessGridEnded) {
+      text("Skóre:\n" + (score + immidiateScore) + "\n z " + masterList.autori.length, width/2, height/2 - mezery*3);
+    } else {
+      var procento = round(((score + immidiateScore) / masterList.autori.length) * 100);
+      var znamka = round(map(procento, 70, 100, 1, 10, true));
+      text("Konec! Máte správně " + procento + "%", width/2, height/2 - 100);
+      image(taticek,width/2 - 400,height/2 -mouseY/10,800,800);
+      text("MÁTE ZA " + znamka + "!!!", width*2/3, height/2 + mezery -mouseY/10);
+      stroke(1);
+      line(width*2/3, height/2 + mezery*2 - mouseY/10,  width*2/3 - mezery*2, height/2 -mouseY/10 + mezery*4);
+    }
     b4.show();
   } else if (gameMode == 3) {
     textSize(32);
@@ -187,7 +200,12 @@ function mousePressed() {
     }
     if (mouseX > width/2-150 && mouseX < width/2 + 150 && mouseY > 280 - 30 && mouseY < 280 + 30) {
       gameMode = 2;
+      tempMasterList = [];
       tempMasterList = JSON.parse(JSON.stringify(masterList));
+      sadaAutoru = [];
+      sadaAutoru2 = [];
+      sadaDel = [];
+      guessGridEnded = false;
       createRandomList(true);
       for(i = 0; i < 5; i++) {
         hadaciBoxy[i] = new hadaciBox(i,true);
@@ -195,6 +213,7 @@ function mousePressed() {
       for(i = 5; i < 10; i++) {
         hadaciBoxy[i] = new hadaciBox(i - 5,false);
       }
+
       immidiateScore = 0;
       score = 0;
       immidiateCorrect = 0;
@@ -385,7 +404,7 @@ function displayAutor(num) {
   textSize(50);
   text(masterList.autori[num].Jmeno, width/2, 80);
   textSize(16);
-  text(masterList.autori[num].Narozeni + " - " + masterList.autori[num].Umrti, width/2, 115 + 0*mezery);
+  text(masterList.autori[num].Narozeni + " až " + masterList.autori[num].Umrti, width/2, 115 + 0*mezery);
   textAlign(LEFT);
   textStyle(BOLD);
   text("Národnost: ", sloup + 40, 115 + 2*mezery);
@@ -434,7 +453,14 @@ function createRandomList(listConstrained) {
 }
 
 function keyPressed() {
-  globallyCorrect++;
+  if (gameMode == 3 && typKarticky != null) {
+    if (keyCode === LEFT_ARROW && currentFlashcard > 0) {
+      currentFlashcard--;
+    }
+    if (keyCode === RIGHT_ARROW && currentFlashcard < sadaAutoru.length - 1) {
+      currentFlashcard++;
+    }
+  }
 }
 
 function shuffleArray(a) {
