@@ -29,15 +29,17 @@ var diloAutor = [];
 var diloAutor2 = [];
 var diloPopis = [];
 var diloPopis2 = [];
+var diloAutorRealismusPlus = [];
+var masterListRealismusPlus;
 
 function preload() {
   masterList = loadJSON("https://raw.githubusercontent.com/VojtaSara/HistorieLiteratury/master/seznam.json");
   taticek = loadImage("https://raw.githubusercontent.com/VojtaSara/HistorieLiteratury/master/Tatíček%20hlava.png");
+  masterListRealismusPlus = loadJSON("https://raw.githubusercontent.com/VojtaSara/HistorieLiteratury/master/autoriRealismusPlus.json");
 }
 
 function setup() {
-  var cnv = createCanvas(windowWidth, windowHeight);
-  cnv.style('display', 'block');
+  createCanvas(windowWidth, windowHeight);
   gameMode = 0;
   b1 = new button(200,"Zobrazit přehled autorů");
   b2 = new button(280,"Přiřaď autory k dílům");
@@ -47,6 +49,7 @@ function setup() {
   b6 = new button(280,"Autor / etapa");
   b7 = new button(360,"Dílo / autor");
   b8 = new button(440,"Popis / dílo");
+  b9 = new button(440,"PŘIPOUŠŤÁK 2");
   masterList.autori.sort((a, b) => (a.Narozeni > b.Narozeni) ? 1 : -1);
   for(i = 0; i < masterList.autori.length; i++) {
     for(j = 0; j < masterList.autori[i].Dila.length; j++) {
@@ -167,6 +170,7 @@ function draw() {
       b6.show();
       b7.show();
       b8.show();
+      b9.show();
     } else {
       rectMode(CENTER);
       if (kartickaFlipped) {
@@ -197,6 +201,12 @@ function draw() {
         textSize(12);
         if (!kartickaFlipped) {text(diloPopis2[currentFlashcard].substring(0,diloPopis2[currentFlashcard].indexOf("*")), width/2, 320);}
         else {textSize(22); text(diloPopis2[currentFlashcard].substring(diloPopis2[currentFlashcard].indexOf("*") + 1,diloPopis2[currentFlashcard].length), width/2, 320);}
+      }
+      else if(typKarticky == 5) {
+        text("Dílo / autor", width/2, 120);
+        textSize(18);
+        if (!kartickaFlipped) {text(Object.keys(diloAutorRealismusPlus[currentFlashcard]), width/2, 320);}
+        else {textSize(22); text(Object.values(diloAutorRealismusPlus[currentFlashcard]), width/2, 320);}
       }
       strokeWeight(4);
       stroke(0);
@@ -242,6 +252,8 @@ function mousePressed() {
       tempMasterList = JSON.parse(JSON.stringify(masterList));
       diloAutor2 = shuffleArray(diloAutor);
       diloPopis2 = shuffleArray(diloPopis);
+      diloAutorRealismusPlus = shuffleArray(masterListRealismusPlus.autoriRealismusPlus);
+      console.log(diloAutorRealismusPlus);
       createRandomList(false);
     }
   } else if (gameMode == 1) {
@@ -278,6 +290,9 @@ function mousePressed() {
       if (mouseX > width/2-150 && mouseX < width/2 + 150 && mouseY > b8.y - 30 && mouseY < b8.y + 30) {
         typKarticky = 4;
       }
+      if (mouseX > width/2-150 && mouseX < width/2 + 150 && mouseY > b9.y - 30 && mouseY < b9.y + 30) {
+        typKarticky = 5;
+      }
       if (mouseX > width/2-150 && mouseX < width/2 + 150 && mouseY > b4.y - 30 && mouseY < b4.y + 30) {
         gameMode = 0;
         typKarticky = null;
@@ -308,6 +323,8 @@ function mousePressed() {
         tempMasterList = JSON.parse(JSON.stringify(masterList));
         diloAutor2 = shuffleArray(diloAutor);
         diloPopis2 = shuffleArray(diloPopis);
+        diloAutorRealismusPlus = shuffleArray(JSON.parse(JSON.stringify(masterListRealismusPlus)));
+        console.log(diloAutorRealismusPlus);
         createRandomList(false);
         kartickaFlipped = false;
       }
